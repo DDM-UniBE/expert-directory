@@ -64,38 +64,60 @@ function clearFilters() {
   renderGrid(researchers);
 }
 
+const CARDS_PER_PAGE = 12;
+let currentPage = 1;
+let filteredList = [];
+
 /* ── Render cards ── */
 function renderGrid(list) {
-  const grid = document.getElementById('grid');
-  document.getElementById('resultsMeta').innerHTML =
-    `Showing <strong>${list.length}</strong> researcher${list.length !== 1 ? 's' : ''}`;
+  filteredList = list;
+  currentPage = 1;
+  renderPage();
+}
 
-  if (!list.length) {
+function renderPage() {
+  const grid = document.getElementById('grid');
+  const total = filteredList.length;
+  const totalPages = Math.ceil(total / CARDS_PER_PAGE);
+  const start = (currentPage - 1) * CARDS_PER_PAGE;
+  const end = Math.min(start + CARDS_PER_PAGE, total);
+  const pageItems = filteredList.slice(start, end);
+
+  document.getElementById('resultsMeta').innerHTML = total
+    ? `Showing <strong>${start + 1}–${end}</strong> of <strong>${total}</strong> profile${total !== 1 ? 's' : ''}`
+    : `Showing <strong>0</strong> profiles`;
+
+  if (!total) {
     grid.innerHTML = '<div class="no-results">No researchers match your search.<br>Try different keywords or clear the filters.</div>';
+    document.getElementById('pagination').style.display = 'none';
     return;
   }
 
-  grid.innerHTML = list.map(r => {
+  grid.innerHTML = pageItems.map(r => {
     const photoEl = r.photo
       ? `<div class="card-photo"><img src="${r.photo}" alt="Photo of ${r.name}" /></div>`
       : `<div class="card-photo-initials">${r.initials}</div>`;
-
     return `
       <a class="card" href="${r.profileUrl}" target="_blank" role="listitem" aria-label="${r.name}, ${r.group}">
-        <div class="card-head">
-          <span class="card-tag">${r.tag}</span>
-        </div>
+        <div class="card-head"><span class="card-tag">${r.tag}</span></div>
         <div class="card-body">
           <div class="card-name">${r.name}</div>
           <div class="card-group">${r.group}</div>
           <div class="card-institute" style="margin-top:6px;">${r.institute}</div>
         </div>
-        <div class="card-bottom">
-          ${photoEl}
-          <div class="card-arrow">${arrowSVG}</div>
-        </div>
+        <div class="card-bottom">${photoEl}<div class="card-arrow">${arrowSVG}</div></div>
       </a>`;
   }).join('');
+
+  const pagination = document.getElementById('pagination');
+  if (totalPages <= 1) {
+    pagination.style.display = 'none';
+  } else {
+    pagination.style.display = 'flex';
+    document.getElementById('paginationInfo').innerHTML = `Showing ${start + 1}–${end} of ${total} profiles`;
+    document.getElementById('prevBtn').disabled = currentPage === 1;
+    document.getElementById('nextBtn').disabled = currentPage === totalPages;
+  }
 }
 
 /* ── Live search ── */
@@ -155,3 +177,12 @@ if (mobileMenuOverlay) {
     link.addEventListener('click', closeMobileMenu);
   });
 }
+
+/* ── Pagination buttons ── */
+document.getElementById('prevBtn').addEventListener('click', () => {
+  if (currentPage > 1) { currentPage--; renderPage(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+});
+document.getElementById('nextBtn').addEventListener('click', () => {
+  const totalPages = Math.ceil(filteredList.length / CARDS_PER_PAGE);
+  if (currentPage < totalPages) { currentPage++; renderPage(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+});
