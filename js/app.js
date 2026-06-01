@@ -7,6 +7,7 @@
 
    Fields:
      initials   → 2-letter fallback shown when no photo
+     firstName  → first name only, used for alphabetical sorting
      photo      → path to image, e.g. "assets/headshots/name.jpg"
                   leave "" to show initials instead
      name       → full display name
@@ -28,7 +29,7 @@ let researchers = [];
 fetch('data/researchers.json')
   .then(res => res.json())
   .then(data => {
-    researchers = data.sort((a, b) => a.name.localeCompare(b.name));
+    researchers = data.sort((a, b) => a.firstName.localeCompare(b.firstName));
     renderGrid(researchers);
   })
   .catch(err => {

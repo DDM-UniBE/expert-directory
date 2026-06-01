@@ -1,6 +1,7 @@
 [
   {
     "initials": "IZ",
+    "firstName": "Inti",
     "photo": "assets/headshots/Inti-Zlobec.jpg",
     "name": "Prof. Dr. phil. nat. Inti Zlobec",
     "group": "Institute for Tissue Medicine and Pathology",
@@ -12,6 +13,7 @@
   },
   {
     "initials": "MR",
+    "firstName": "Mauricio",
     "photo": "assets/headshots/Mauricio-Reyes.jpg",
     "name": "Prof. Dr. Mauricio Reyes",
     "group": "Medical Image Analysis Group, ARTORG",
@@ -23,6 +25,7 @@
   },
   {
     "initials": "SB",
+    "firstName": "Sarah",
     "photo": "assets/headshots/sarahbrueningk.jpg",
     "name": "Prof. Dr. Sarah Brüningk",
     "group": "Center of AI in Radiation Oncology, UKRO",
@@ -34,6 +37,7 @@
   },
   {
     "initials": "AK",
+    "firstName": "Antje",
     "photo": "assets/headshots/Antje-Knopf.png",
     "name": "Prof. Dr. Antje Knopf",
     "group": "Department of Radio-Oncology",
@@ -45,6 +49,7 @@
   },
   {
     "initials": "BI",
+    "firstName": "Benjamin",
     "photo": "assets/headshots/Benjamin-Ineichen.png",
     "name": "Prof. Dr. Benjamin Ineichen",
     "group": "Medical Data Science, Department of Clinical Research",
@@ -56,6 +61,7 @@
   },
   {
     "initials": "RW",
+    "firstName": "Roland",
     "photo": "assets/headshots/Roland-Wiest.jpg",
     "name": "Prof. Dr. med. Roland Wiest",
     "group": "Institute for Diagnostic and Interventional Neuroradiology",
@@ -67,6 +73,7 @@
   },
   {
     "initials": "MB",
+    "firstName": "Maris",
     "photo": "assets/headshots/maris-bartkevics.jpg",
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
@@ -78,6 +85,7 @@
   },
   {
     "initials": "AL",
+    "firstName": "Anja",
     "photo": "assets/headshots/anja-lachenmayer.jpg",
     "name": "Prof. Dr. med. Anja Lachenmayer",
     "group": "Department of Visceral Surgery and Medicine",
@@ -89,6 +97,7 @@
   },
   {
     "initials": "RM",
+    "firstName": "Richard",
     "photo": "assets/headshots/richard-mckinley.jpg",
     "name": "PD. PhD Richard McKinley",
     "group": "Support Center For Advanced Neuroimaging, Institute for Diagnostic and Interventional Neuroradiology",
@@ -100,6 +109,7 @@
   },
   {
     "initials": "AP",
+    "firstName": "Amit",
     "photo": "assets/headshots/Amit_Pandey.jpg",
     "name": "Prof. Dr. Amit Pandey",
     "group": "Department of Pediatrics, University Children's Hospital Bern",
@@ -111,6 +121,7 @@
   },
   {
     "initials": "PC",
+    "firstName": "Panagiotis",
     "photo": "assets/headshots/Panagiotis-Chouvardas.jpg",
     "name": "PD Dr. Panagiotis Chouvardas",
     "group": "Department of Urology, Department for BioMedical Research",
@@ -122,6 +133,7 @@
   },
   {
     "initials": "HG",
+    "firstName": "Hugo",
     "photo": "assets/headshots/hugoarmando-guillenramirez.jpg",
     "name": "PhD Dr. Hugo Armando Guillen Ramirez",
     "group": "Department of Visceral Surgery and Medicine",
