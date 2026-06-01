@@ -28,7 +28,7 @@ let researchers = [];
 fetch('data/researchers.json')
   .then(res => res.json())
   .then(data => {
-    researchers = data;
+    researchers = data.sort((a, b) => a.name.localeCompare(b.name));
     renderGrid(researchers);
   })
   .catch(err => {
