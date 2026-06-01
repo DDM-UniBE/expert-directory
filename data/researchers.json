@@ -12,7 +12,7 @@
   },
   {
     "initials": "MR",
-    "photo": "assets/headshots/Mauricio-Reyes.png",
+    "photo": "assets/headshots/Mauricio-Reyes.jpg",
     "name": "Prof. Dr. Mauricio Reyes",
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
@@ -67,7 +67,7 @@
   },
   {
     "initials": "MB",
-    "photo": "assets/headshots/Maris-Bartkevics.jpg",
+    "photo": "assets/headshots/maris-bartkevics.jpg",
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
     "institute": "Inselspital",
@@ -78,7 +78,7 @@
   },
   {
     "initials": "AL",
-    "photo": "assets/headshots/Anja-Lachenmayer.jpg",
+    "photo": "assets/headshots/anja-lachenmayer.jpg",
     "name": "Prof. Dr. med. Anja Lachenmayer",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital",
@@ -89,7 +89,7 @@
   },
   {
     "initials": "RM",
-    "photo": "assets/headshots/Richard-McKinley.jpg",
+    "photo": "assets/headshots/richard-mckinley.jpg",
     "name": "PD. PhD Richard McKinley",
     "group": "Support Center For Advanced Neuroimaging, Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "Inselspital",
@@ -100,7 +100,7 @@
   },
   {
     "initials": "AP",
-    "photo": "assets/headshots/Amit-Pandey.jpg",
+    "photo": "assets/headshots/Amit_Pandey.jpg",
     "name": "Prof. Dr. Amit Pandey",
     "group": "Department of Pediatrics, University Children's Hospital Bern",
     "institute": "Inselspital",
@@ -122,7 +122,7 @@
   },
   {
     "initials": "HG",
-    "photo": "assets/headshots/Hugo-Guillen-Ramirez.jpg",
+    "photo": "assets/headshots/hugoarmando-guillenramirez.jpg",
     "name": "PhD Dr. Hugo Armando Guillen Ramirez",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital · University of Bern",
