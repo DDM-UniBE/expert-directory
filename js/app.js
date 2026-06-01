@@ -65,7 +65,7 @@ function clearFilters() {
   renderGrid(researchers);
 }
 
-const CARDS_PER_PAGE = 12;
+const CARDS_PER_PAGE = 9;
 let currentPage = 1;
 let filteredList = [];
 
@@ -111,14 +111,10 @@ function renderPage() {
   }).join('');
 
   const pagination = document.getElementById('pagination');
-  if (totalPages <= 1) {
-    pagination.style.display = 'none';
-  } else {
-    pagination.style.display = 'flex';
-    document.getElementById('paginationInfo').innerHTML = `Showing ${start + 1}–${end} of ${total} profiles`;
-    document.getElementById('prevBtn').disabled = currentPage === 1;
-    document.getElementById('nextBtn').disabled = currentPage === totalPages;
-  }
+  pagination.style.display = 'flex';
+  document.getElementById('paginationInfo').innerHTML = `${start + 1}–${end} of ${total} profiles`;
+  document.getElementById('prevBtn').disabled = currentPage === 1;
+  document.getElementById('nextBtn').disabled = currentPage === totalPages;
 }
 
 /* ── Live search ── */
