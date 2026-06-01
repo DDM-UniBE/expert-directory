@@ -64,5 +64,71 @@
     "expertise": "Clinical Specialities",
     "tag": "Neuroradiology",
     "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest"
+  },
+  {
+    "initials": "MB",
+    "photo": "assets/headshots/Maris-Bartkevics.jpg",
+    "name": "Dr. med. Maris Bartkevics",
+    "group": "Department of Cardiac Surgery",
+    "institute": "Inselspital",
+    "area": "Cardiac Surgery",
+    "expertise": "AI & Data Science, Clinical Research & Evidence",
+    "tag": "Cardiac Surgery",
+    "profileUrl": "mailto:maris.bartkevics@insel.ch"
+  },
+  {
+    "initials": "AL",
+    "photo": "assets/headshots/Anja-Lachenmayer.jpg",
+    "name": "Prof. Dr. med. Anja Lachenmayer",
+    "group": "Department of Visceral Surgery and Medicine",
+    "institute": "Inselspital",
+    "area": "Liver Cancer",
+    "expertise": "Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
+    "tag": "Liver Cancer",
+    "profileUrl": "mailto:anja.lachenmayer@insel.ch"
+  },
+  {
+    "initials": "RM",
+    "photo": "assets/headshots/Richard-McKinley.jpg",
+    "name": "PD. PhD Richard McKinley",
+    "group": "Support Center For Advanced Neuroimaging, Institute for Diagnostic and Interventional Neuroradiology",
+    "institute": "Inselspital",
+    "area": "Neuroimaging",
+    "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
+    "tag": "Neuroimaging",
+    "profileUrl": "mailto:Richard.mckinley@insel.ch"
+  },
+  {
+    "initials": "AP",
+    "photo": "assets/headshots/Amit-Pandey.jpg",
+    "name": "Prof. Dr. Amit Pandey",
+    "group": "Department of Pediatrics, University Children's Hospital Bern",
+    "institute": "Inselspital",
+    "area": "Pediatric Endocrinology",
+    "expertise": "AI & Data Science, Bioinformatics & Omics, Ethics, Pathology & Molecular Medicine",
+    "tag": "Pediatric Endocrinology",
+    "profileUrl": "https://www.pandeylab.org/"
+  },
+  {
+    "initials": "PC",
+    "photo": "assets/headshots/Panagiotis-Chouvardas.jpg",
+    "name": "PD Dr. Panagiotis Chouvardas",
+    "group": "Department of Urology, Department for BioMedical Research",
+    "institute": "Inselspital · University of Bern",
+    "area": "Computational Biology",
+    "expertise": "AI & Data Science, Bioinformatics & Omics",
+    "tag": "Computational Biology",
+    "profileUrl": "mailto:panagiotis.chouvardas@unibe.ch"
+  },
+  {
+    "initials": "HG",
+    "photo": "assets/headshots/Hugo-Guillen-Ramirez.jpg",
+    "name": "PhD Dr. Hugo Armando Guillen Ramirez",
+    "group": "Department of Visceral Surgery and Medicine",
+    "institute": "Inselspital · University of Bern",
+    "area": "Machine Learning",
+    "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
+    "tag": "Machine Learning",
+    "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
   }
 ]
