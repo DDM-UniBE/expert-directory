@@ -422,13 +422,37 @@
       {
     "initials": "MD",
     "firstName": "Moritz",
-    "photo": "assets/headshots/guillaume-speierer.jpg",
+    "photo": "assets/headshots/moritz-deml.jpg",
     "name": "Prof. Dr. med. Moritz Deml",
     "group": "Department for Orthopaedic and Trauma Surgery",
     "institute": "Inselspital",
     "area": "Surgical Specialities",
-    "expertise": "AI & Data Science, Clinical Specialities",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
     "tag": "Spine Surgery",
     "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml"
+  },
+      {
+    "initials": "SI",
+    "firstName": "Sara",
+    "photo": "assets/headshots/sara-imboden.jpg",
+    "name": "PD Dr.med. Sara Imboden",
+    "group": "University Clinic for Gynecology · DBMR",
+    "institute": "Inselspital · University of Bern",
+    "area": "Gynecologic oncology",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence",
+    "tag": "Gynecologic oncology",
+    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/personlist/34/person/detail/sara-imboden"
+  },
+      {
+    "initials": "OE",
+    "firstName": "Olgun",
+    "photo": "assets/headshots/olgun-elicin.jpg",
+    "name": "PD Dr.med. Olgun Elicin",
+    "group": "Department of Radiation Oncology",
+    "institute": "Inselspital · University of Bern",
+    "area": "Radiation Oncology",
+    "expertise": "Clinical Research & Evidence",
+    "tag": "Radiation Oncology",
+    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/personlist/6/person/detail/olgun-elicin"
   }
 ]
