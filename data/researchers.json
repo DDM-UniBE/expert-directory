@@ -214,5 +214,30 @@
     "expertise": "Clinical Research & Evidence",
     "tag": "Prostate Cancer",
     "profileUrl": "Marianna.kruithofdejulio@unibe.ch"
+  },
+      {
+    "initials": "DS",
+    "firstName": "David",
+    "photo": "assets/headshots/david-schwappach.jpg",
+    "name": "Prof. Dr. David Schwappach",
+    "group": "Patient Safety in Health Services, ISPM",
+    "institute": "University of Bern",
+    "area": "Patient Safety",
+    "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
+    "tag": "Patient Safety",
+    "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
+  }
+  ,
+      {
+    "initials": "AH",
+    "firstName": "Ali",
+    "photo": "assets/headshots/ali-hashemigheinani.jpg",
+    "name": "Dr. PhD Ali Hashemi Gheinani",
+    "group": "Functional Urology Research, DBMR",
+    "institute": "University of Bern · Inselspital",
+    "area": "Computational Biology",
+    "expertise": "AI & Data Science, Bioinformatics & Omics",
+    "tag": "Urology & Computational Biology",
+    "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html"
   }
 ]
