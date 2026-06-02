@@ -6,7 +6,7 @@
     "name": "Prof. Dr. phil. nat. Inti Zlobec",
     "group": "Institute for Tissue Medicine and Pathology",
     "institute": "University of Bern",
-    "area": "Genomics",
+    "area": "Digital Pathology",
     "expertise": "Pathology & Molecular Medicine",
     "tag": "Digital Pathology",
     "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/zlobec_inti/index_eng.html"
@@ -174,7 +174,7 @@
     "name": "Dr. sc. Nat. Amjad Khan",
     "group": "Institute of Tissue Medicine and Pathology",
     "institute": "University of Bern",
-    "area": "Genomics",
+    "area": "Digital Pathology",
     "expertise": "AI & Data Science, Biomedical Engineering, Bioinformatics & Omics",
     "tag": "Digital Pathology",
     "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/khan_amjad/index_eng.html"
@@ -320,7 +320,7 @@
     "institute": "University of Bern",
     "area": "Oncology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
-    "tag": "Neuro-Oncology",
+    "tag": "Oncology",
     "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html"
   },
   {
@@ -344,7 +344,7 @@
     "institute": "University of Bern",
     "area": "Diabetes",
     "expertise": "AI & Data Science, Medical Imaging",
-    "tag": "Machine Learning",
+    "tag": "Diabetes",
     "profileUrl": "www.mlm-lab.ch"
   },
   {
@@ -380,8 +380,8 @@
     "institute": "Inselspital · University of Bern",
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence",
-    "tag": "Vascular Medicine",
-    "profileUrl": "hendrik.vontengg@insel.ch"
+    "tag": "Medical Imaging",
+    "profileUrl": "https://radiologie.insel.ch/de/ueber-uns/details/person/detail/hendrik-von-tengg-kobligk"
   },
   {
     "initials": "YS",
@@ -392,7 +392,7 @@
     "institute": "Inselspital",
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
-    "tag": "Clinical AI",
+    "tag": "Medical Imaging",
     "profileUrl": "https://yaskhanloo.me"
   },
   {
@@ -404,7 +404,7 @@
     "institute": "Inselspital",
     "area": "Oncology",
     "expertise": "Clinical Research & Evidence, Clinical Specialities",
-    "tag": "Gynecologic oncology",
+    "tag": "Oncology",
     "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler"
   },
   {
@@ -416,7 +416,7 @@
     "institute": "Inselspital",
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Clinical Specialities",
-    "tag": "Clinical AI",
+    "tag": "Medical Imaging",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
   },
   {
@@ -428,7 +428,7 @@
     "institute": "Inselspital",
     "area": "Therapeutics",
     "expertise": "Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
-    "tag": "Spine Surgery",
+    "tag": "Therapeutics",
     "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml"
   },
   {
@@ -440,7 +440,7 @@
     "institute": "Inselspital · University of Bern",
     "area": "Oncology",
     "expertise": "Clinical Specialities, Clinical Research & Evidence",
-    "tag": "Gynecologic oncology",
+    "tag": "Oncology",
     "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/personlist/34/person/detail/sara-imboden"
   },
   {
@@ -452,7 +452,7 @@
     "institute": "Inselspital · University of Bern",
     "area": "Oncology",
     "expertise": "Clinical Research & Evidence",
-    "tag": "Radiation Oncology",
+    "tag": "Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/personlist/6/person/detail/olgun-elicin"
   },
   {
@@ -464,7 +464,7 @@
     "institute": "Inselspital · University of Bern",
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
-    "tag": "Cardiac Imaging",
+    "tag": "Medical Imaging",
     "profileUrl": "https://ai-cvm.org/"
   },
   {
@@ -490,5 +490,17 @@
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/daniel-schanne"
+  },
+  {
+    "initials": "RP",
+    "firstName": "Rouven",
+    "photo": "assets/headshots/rouven-porz.png",
+    "name": "Prof. Dr. phil. Rouven Porz",
+    "group": "Medical EthicS Unit",
+    "institute": "Inselspital",
+    "area": "Ethics",
+    "expertise": "Ethics, Policy & Education",
+    "tag": "Ethics",
+    "profileUrl": "Rouven.porz@insel.ch"
   }
 ]
