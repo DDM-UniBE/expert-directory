@@ -42,7 +42,7 @@
     "name": "Prof. Dr. Antje Knopf",
     "group": "Department of Radio-Oncology",
     "institute": "University of Bern · Inselspital · sitem-insel school",
-    "area": "Radio-Oncology",
+    "area": "Radiation Oncology",
     "expertise": "Clinical Specialities, Ethics, Policy & Education",
     "tag": "Radio-Oncology",
     "profileUrl": "https://www.medizin.unibe.ch/ueber_uns/personen/prof_dr_knopf_antje/index_ger.html"
@@ -66,7 +66,7 @@
     "name": "Prof. Dr. med. Roland Wiest",
     "group": "Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "University of Bern · Inselspital",
-    "area": "Neuroradiology",
+    "area": "Neuroimaging & Neuroradiology",
     "expertise": "Clinical Specialities",
     "tag": "Neuroradiology",
     "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest"
@@ -102,7 +102,7 @@
     "name": "PD. PhD Richard McKinley",
     "group": "Support Center For Advanced Neuroimaging, Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "Inselspital",
-    "area": "Neuroimaging",
+    "area": "Neuroimaging & Neuroradiology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
     "tag": "Neuroimaging",
     "profileUrl": "mailto:Richard.mckinley@insel.ch"
