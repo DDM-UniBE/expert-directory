@@ -19,7 +19,7 @@
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
     "area": "Medical Imaging",
-    "expertise": "Biomedical Engineering",
+    "expertise": "Medical Imaging",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
   },
@@ -253,14 +253,26 @@
   },
       {
     "initials": "SP",
-    "firstName": "Lilian",
+    "firstName": "Simone",
     "photo": "assets/headshots/simone-poli.jpg",
     "name": "Dr. Ing. PhD Simone Poli",
     "group": "Department of Diagnostic, Interventional and Pediatric Radiology",
     "institute": "Inselspital",
     "area": "Medical Imaging",
-    "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
+    "expertise": "Medical Imaging, Clinical Research & Evidence",
     "tag": "Medical Imaging",
     "profileUrl": "https://www.linkedin.com/in/simone-poli-phd-546128b9/?locale=it_IT"
+  },
+      {
+    "initials": "AB",
+    "firstName": "Andrej",
+    "photo": "assets/headshots/andrej-benjak.jpeg",
+    "name": "Dr. Andrej Benjak",
+    "group": "BioMed Data Science Hub, DBMR",
+    "institute": "University of Bern",
+    "area": "Cancer Genomics",
+    "expertise": "Bioinformatics & Omics",
+    "tag": "Cancer Genomics",
+    "profileUrl": "https://biomedhub.unibe.ch/about_us/members/people/dr_benjak_andrej/index_eng.html"
   }
 ]
