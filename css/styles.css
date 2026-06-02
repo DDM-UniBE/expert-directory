@@ -496,25 +496,25 @@ body {
   overflow: visible;
 }
 @keyframes slideOutLeft {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-60px); }
+  from { transform: translateX(0); opacity: 1; }
+  to   { transform: translateX(-30px); opacity: 0; }
 }
 @keyframes slideOutRight {
-  from { transform: translateX(0); }
-  to   { transform: translateX(60px); }
+  from { transform: translateX(0); opacity: 1; }
+  to   { transform: translateX(30px); opacity: 0; }
 }
 @keyframes slideInRight {
-  from { transform: translateX(60px); }
-  to   { transform: translateX(0); }
+  from { transform: translateX(30px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
 }
 @keyframes slideInLeft {
-  from { transform: translateX(-60px); }
-  to   { transform: translateX(0); }
+  from { transform: translateX(-30px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
 }
-.slide-out-left  { animation: slideOutLeft  0.3s ease forwards; }
-.slide-out-right { animation: slideOutRight 0.3s ease forwards; }
-.slide-in-right  { animation: slideInRight  0.35s ease forwards; }
-.slide-in-left   { animation: slideInLeft   0.35s ease forwards; }
+.slide-out-left  { animation: slideOutLeft  0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+.slide-out-right { animation: slideOutRight 0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+.slide-in-right  { animation: slideInRight  0.35s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+.slide-in-left   { animation: slideInLeft   0.35s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
 
 /* ── COLLABORATION SECTION ── */
 .collab-section {

@@ -192,7 +192,7 @@ function slideTo(direction) {
     renderPage();
     grid.classList.add(inClass);
     setTimeout(() => grid.classList.remove(inClass), 350);
-  }, 300);
+  }, 250);
 }
 
 document.getElementById('prevBtn').addEventListener('click', () => {
