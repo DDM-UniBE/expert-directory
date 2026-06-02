@@ -76,11 +76,11 @@ function clearFilters() {
 /* ── Multi-select dropdown logic ── */
 const MS_DATA = {
   area: [
-    "Artificial Intelligence & Data Science",
     "Biomedical Engineering & Biomedical Research",
     "Cancer & Oncology",
     "Cardiovascular Medicine",
     "Clinical Research & Epidemiology",
+    "Data Science",
     "Digital Pathology",
     "Ethics & Responsible AI",
     "Genomics & Precision Medicine",
