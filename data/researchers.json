@@ -114,7 +114,7 @@
     "name": "Prof. Dr. Amit Pandey",
     "group": "Department of Pediatrics, University Children's Hospital Bern",
     "institute": "Inselspital",
-    "area": "Pediatrics",
+    "area": "Pediatrics, Endocrinology",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Pathology & Molecular Medicine",
     "tag": "Pediatrics",
     "profileUrl": "https://www.pandeylab.org/"
@@ -284,7 +284,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Neuroscience",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine",
-    "tag": "Neuroimaging",
+    "tag": "Neuroscience",
     "profileUrl": "Ruiqing.ni@unibe.ch"
   },
   {
@@ -390,9 +390,9 @@
     "name": "Dr. sc. nat. Yasaman Safarkhanlo",
     "group": "Department of Neurology",
     "institute": "Inselspital",
-    "area": "Medical Imaging",
+    "area": "Data Science, Neuroscience",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
-    "tag": "Medical Imaging",
+    "tag": "Data Science",
     "profileUrl": "https://yaskhanloo.me"
   },
   {
@@ -414,9 +414,9 @@
     "name": "Dr. med. Guillaume Speierer",
     "group": "Internal Medicine",
     "institute": "Inselspital",
-    "area": "Medical Imaging",
+    "area": "Data Science",
     "expertise": "AI & Data Science, Clinical Specialities",
-    "tag": "Medical Imaging",
+    "tag": "Data Science",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
   },
   {
