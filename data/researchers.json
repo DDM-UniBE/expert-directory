@@ -32,7 +32,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Cancer & Oncology",
     "expertise": "Clinical Specialities",
-    "tag": "Radiation Oncology",
+    "tag": "Gynaecological Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk"
   },
   {
@@ -78,7 +78,7 @@
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
     "institute": "Inselspital",
-    "area": "Cardiovascular Medicine",
+    "area": "Surgery & Interventional Medicine",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Cardiac Surgery",
     "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
@@ -222,12 +222,12 @@
     "name": "Prof. Dr. David Schwappach",
     "group": "Patient Safety in Health Services, ISPM",
     "institute": "University of Bern",
-    "area": "Clinical Research & Epidemiology",
+    "area": "Artificial Intelligence & Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
-    "tag": "Patient Safety",
+    "tag": "Machine Learning",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
   },
-  {
+
     "initials": "AH",
     "firstName": "Ali",
     "photo": "assets/headshots/ali-hashemigheinani.jpg",
