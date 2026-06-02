@@ -18,8 +18,8 @@
     "name": "Prof. Dr. Mauricio Reyes",
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
-    "area": "Medical Imaging",
-    "expertise": "Medical Imaging",
+    "area": "Biomedical Engineering",
+    "expertise": "Biomedical Engineering",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
   },
@@ -274,5 +274,41 @@
     "expertise": "Bioinformatics & Omics",
     "tag": "Cancer Genomics",
     "profileUrl": "https://biomedhub.unibe.ch/about_us/members/people/dr_benjak_andrej/index_eng.html"
+  },
+      {
+    "initials": "RN",
+    "firstName": "Ruiqing",
+    "photo": "assets/headshots/ruiqing-ni.jpg",
+    "name": "PD. PhD Ruiqing Ni",
+    "group": "Department of Nuclear Medicine",
+    "institute": "University of Bern · Inselspital",
+    "area": "Neuroimaging & Neuroradiology",
+    "expertise": "Medical Imaging, Pathology & Molecular Medicine",
+    "tag": "Neuroimaging",
+    "profileUrl": "Ruiqing.ni@unibe.ch"
+  },
+      {
+    "initials": "SG",
+    "firstName": "Sissel",
+    "photo": "assets/headshots/sissel-guttormsen.jpg",
+    "name": "Prof. Dr. phil. Sissel Guttormsen",
+    "group": "Institute for Medical Education",
+    "institute": "University of Bern",
+    "area": "Medical Education",
+    "expertise": "Clinical Specialities, Ethics, Policy & Education",
+    "tag": "Medical Education",
+    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/guttormsen-sissel?department=direktion"
+  },
+      {
+    "initials": "OG",
+    "firstName": "Oliver",
+    "photo": "assets/headshots/oliver-guenat.png",
+    "name": "Prof. Dr. Oliver Guenat",
+    "group": "Organs-on-Chip Technologies Lab, ARTORG",
+    "institute": "University of Bern",
+    "area": "Biomedical Engineering",
+    "expertise": "Biomedical Engineering",
+    "tag": "Biomedical Engineering",
+    "profileUrl": "https://www.artorg.unibe.ch/research/ooc/index_eng.html"
   }
 ]
