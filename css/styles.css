@@ -305,7 +305,7 @@ body {
 .results-area .inner { padding-top: 0; padding-bottom: 0; }
 #grid { padding-bottom: 48px; }
 .results-meta {
-  padding: 24px 0 18px;
+  padding: 8px 0 18px;
   font-size: 15px;
   font-weight: 400;
   color: #777;
