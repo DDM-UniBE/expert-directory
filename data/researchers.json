@@ -54,7 +54,7 @@
     "name": "Prof. Dr. Benjamin Ineichen",
     "group": "Medical Data Science, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science, Clinical Research",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "Medical Data Science",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html"
@@ -138,7 +138,7 @@
     "name": "PhD Dr. Hugo Armando Guillen Ramirez",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital · University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
     "tag": "AI & Machine Learning",
     "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
@@ -150,9 +150,9 @@
     "name": "Dr. sc. Rosni Vasu",
     "group": "Medical Data Science, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
-    "tag": "Data Science",
+    "tag": "AI & Data Science",
     "profileUrl": "https://rosnikv.github.io/"
   },
   {
@@ -186,7 +186,7 @@
     "name": "Prof. Dr. David Ginsbourger",
     "group": "Uncertainty Quantification and Spatial Statistics Group, IMSV",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "Machine Learning",
     "profileUrl": "https://ginsbourger.github.io/"
@@ -222,7 +222,7 @@
     "name": "Prof. Dr. David Schwappach",
     "group": "Patient Safety in Health Services, ISPM",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
     "tag": "Patient Safety",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
@@ -330,7 +330,7 @@
     "name": "Prof. Dr. med. Lars Hemkens",
     "group": "Pragmatic Evidence Lab, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Clinical Research",
+    "area": "Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education, Clinical Research & Evidence",
     "tag": "Clinical Epidemiology",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
@@ -342,7 +342,7 @@
     "name": "Prof. Dr. Lisa Koch",
     "group": "Machine Learning in Medicine Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science, Medical Imaging",
     "tag": "Trustworthy AI",
     "profileUrl": "www.mlm-lab.ch"
@@ -390,7 +390,7 @@
     "name": "Dr. sc. nat. Yasaman Safarkhanlo",
     "group": "Department of Neurology",
     "institute": "Inselspital",
-    "area": "Artificial Intelligence & Data Science, Clinical Research",
+    "area": "Medical Imaging, Data Science",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Clinical AI",
     "profileUrl": "https://yaskhanloo.me"
