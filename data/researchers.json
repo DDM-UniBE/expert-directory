@@ -142,5 +142,53 @@
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
     "tag": "Machine Learning",
     "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
-  }
+  },
+    {
+    "initials": "RV",
+    "firstName": "Rosni",
+    "photo": "assets/headshots/rosni-vasu.jpg",
+    "name": "Dr. sc. Rosni Vasu",
+    "group": "Medical Data Science, Department of Clinical Research",
+    "institute": "University of Bern",
+    "area": "AI & Data Science",
+    "expertise": "AI & Data Science",
+    "tag": "Data Science",
+    "profileUrl": "https://rosnikv.github.io/"
+  },
+  {
+    "initials": "BZ",
+    "firstName": "Benoit",
+    "photo": "assets/headshots/benoit-zuber.jpg",
+    "name": "Prof. Dr. Benoit Zuber",
+    "group": "Microscopic Anatomy and Structural Biology, Institute of Anatomy",
+    "institute": "University of Bern",
+    "area": "Neuroscience, Microbiology",
+    "expertise": "AI & Data Science",
+    "tag": "Neuroscience, Microbiology",
+    "profileUrl": "https://www.anatomie.unibe.ch/about_us/team/detail/index_eng.php?id=329"
+  },
+    {
+    "initials": "AK",
+    "firstName": "Amjad",
+    "photo": "assets/headshots/amjad-khan.jpg",
+    "name": "Dr. sc. Nat. Amjad Khan",
+    "group": "Institute of Tissue Medicine and Pathology",
+    "institute": "University of Bern",
+    "area": "Digital Pathology",
+    "expertise": "AI & Data Science, Biomedical Engineering, Bioinformatics & Omics",
+    "tag": "Digital Pathology",
+    "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/khan_amjad/index_eng.html"
+  },
+      {
+    "initials": "DG",
+    "firstName": "David",
+    "photo": "assets/headshots/david-ginsbourger.jpg",
+    "name": "Prof. Dr. David Ginsbourger",
+    "group": "Uncertainty Quantification and Spatial Statistics Group, IMSV",
+    "institute": "University of Bern",
+    "area": "Machine Learning",
+    "expertise": "AI & Data Science",
+    "tag": "Machine Learning",
+    "profileUrl": "https://ginsbourger.github.io/"
+  },
 ]
