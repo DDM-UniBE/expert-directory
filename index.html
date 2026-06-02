@@ -103,40 +103,45 @@
 
         <!-- FILTERS -->
         <div class="filters-bar">
-          <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:18px 0;">
-            <span class="filters-label">Filter by</span>
-            <select class="filter-select" id="filterArea" onchange="applyFilters()" aria-label="Filter by research area">
-              <option value="">Research area</option>
-              <option>Biomedical Engineering &amp; Biomedical Research</option>
-              <option>Cancer &amp; Oncology</option>
-              <option>Cardiovascular Medicine</option>
-              <option>Data Science</option>
-              <option>Digital Pathology</option>
-              <option>Ethics &amp; Responsible AI</option>
-              <option>Genomics &amp; Precision Medicine</option>
-              <option>Medical Education</option>
-              <option>Medical Imaging</option>
-              <option>Neuroscience &amp; Neurology</option>
-              <option>Surgery &amp; Interventional Medicine</option>
-            </select>
-            <select class="filter-select" id="filterExpertise" onchange="applyFilters()" aria-label="Filter by expertise">
-              <option value="">Expertise</option>
-              <option>AI &amp; Data Science</option>
-              <option>Bioinformatics &amp; Omics</option>
-              <option>Biomedical Engineering</option>
-              <option>Clinical Research &amp; Evidence</option>
-              <option>Clinical Specialities</option>
-              <option>Digital Health &amp; Health Informatics</option>
-              <option>Ethics, Policy &amp; Education</option>
-              <option>Medical Imaging</option>
-              <option>Pathology &amp; Molecular Medicine</option>
-            </select>
-            <select class="filter-select" id="filterInstitute" onchange="applyFilters()" aria-label="Filter by institute">
-              <option value="">Institute</option>
-              <option>University of Bern</option>
-              <option>Inselspital</option>
-              <option>sitem-insel</option>
-            </select>
+          <div style="display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap;padding:18px 0;">
+            <span class="filters-label" style="padding-top:10px;">Filter by</span>
+
+            <!-- Research Area -->
+            <div class="ms-wrap" id="ms-wrap-area">
+              <div class="ms-box" id="ms-box-area" onclick="toggleDropdown('area')">
+                <span class="ms-placeholder" id="ms-ph-area">Research area</span>
+                <span class="ms-chev" id="ms-chev-area">▾</span>
+              </div>
+              <div class="ms-dd" id="ms-dd-area">
+                <input class="ms-search" type="text" placeholder="Search…" oninput="msFilterOptions('area', this.value)" />
+                <div id="ms-opts-area"></div>
+              </div>
+            </div>
+
+            <!-- Expertise -->
+            <div class="ms-wrap" id="ms-wrap-exp">
+              <div class="ms-box" id="ms-box-exp" onclick="toggleDropdown('exp')">
+                <span class="ms-placeholder" id="ms-ph-exp">Expertise</span>
+                <span class="ms-chev" id="ms-chev-exp">▾</span>
+              </div>
+              <div class="ms-dd" id="ms-dd-exp">
+                <input class="ms-search" type="text" placeholder="Search…" oninput="msFilterOptions('exp', this.value)" />
+                <div id="ms-opts-exp"></div>
+              </div>
+            </div>
+
+            <!-- Institute -->
+            <div class="ms-wrap" id="ms-wrap-inst">
+              <div class="ms-box" id="ms-box-inst" onclick="toggleDropdown('inst')">
+                <span class="ms-placeholder" id="ms-ph-inst">Institute</span>
+                <span class="ms-chev" id="ms-chev-inst">▾</span>
+              </div>
+              <div class="ms-dd" id="ms-dd-inst">
+                <input class="ms-search" type="text" placeholder="Search…" oninput="msFilterOptions('inst', this.value)" />
+                <div id="ms-opts-inst"></div>
+              </div>
+            </div>
+
             <button class="clear-btn" onclick="clearFilters()">&#x2715;&nbsp; Clear filters</button>
           </div>
         </div>

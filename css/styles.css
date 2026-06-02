@@ -570,6 +570,111 @@ body {
 }
 .collab-btn:hover .collab-btn-arrow { transform: translateX(5px); }
 
+/* ── MULTI-SELECT DROPDOWNS ── */
+.ms-wrap {
+  position: relative;
+  min-width: 200px;
+}
+.ms-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 5px;
+  min-height: 40px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+  position: relative;
+  transition: border-color 0.15s;
+}
+.ms-box:hover { border-color: #C8102E; }
+.ms-chev {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+  color: #888;
+  pointer-events: none;
+  transition: transform 0.2s;
+}
+.ms-chev-open { transform: rotate(180deg); }
+.ms-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f5eded;
+  color: #9a2020;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 3px 8px 3px 10px;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.ms-pill button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9a2020;
+  font-size: 15px;
+  line-height: 1;
+  padding: 0;
+  font-family: inherit;
+}
+.ms-pill button:hover { color: #C8102E; }
+.ms-placeholder {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 28px;
+  font-family: inherit;
+}
+.ms-dd {
+  display: none;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  z-index: 200;
+  max-height: 240px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.ms-dd.ms-open { display: block; }
+.ms-search {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 8px 12px;
+  font-size: 13px;
+  outline: none;
+  background: white;
+  color: #333;
+  font-family: inherit;
+}
+.ms-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  font-family: inherit;
+  transition: background 0.1s;
+}
+.ms-option:hover { background: #f5f5f3; }
+.ms-option.ms-selected { color: #C8102E; }
+.ms-option input[type="checkbox"] {
+  accent-color: #C8102E;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
 /* ── NO RESULTS ── */
 .no-results {
   grid-column: 1 / -1;

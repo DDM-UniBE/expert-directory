@@ -30,6 +30,7 @@ fetch('data/researchers.json')
   .then(res => res.json())
   .then(data => {
     researchers = data.sort((a, b) => a.firstName.localeCompare(b.firstName));
+    initMultiSelects();
     renderGrid(researchers);
   })
   .catch(err => {
@@ -38,31 +39,147 @@ fetch('data/researchers.json')
       '<div class="no-results">Could not load researcher data.<br>Please run this page from a local server or hosting.</div>';
   });
 
+/* ── Multi-select state ── */
+const selectedFilters = { area: new Set(), exp: new Set(), inst: new Set() };
+
 /* ── Filter logic ── */
 function applyFilters() {
-  const q    = document.getElementById('searchInput').value.toLowerCase().trim();
-  const area = document.getElementById('filterArea').value;
-  const exp  = document.getElementById('filterExpertise').value;
-  const inst = document.getElementById('filterInstitute').value;
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const areas = selectedFilters.area;
+  const exps  = selectedFilters.exp;
+  const insts = selectedFilters.inst;
 
   const filtered = researchers.filter(r =>
     (!q || r.name.toLowerCase().includes(q) ||
            r.group.toLowerCase().includes(q) ||
            r.tag.toLowerCase().includes(q) ||
            r.institute.toLowerCase().includes(q)) &&
-    (!area || r.area.toLowerCase().includes(area.toLowerCase())) &&
-    (!exp  || r.expertise.toLowerCase().includes(exp.toLowerCase())) &&
-    (!inst || r.institute.toLowerCase().includes(inst.toLowerCase()))
+    (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
+    (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
+    (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
   );
   renderGrid(filtered);
 }
 
 function clearFilters() {
-  document.getElementById('searchInput').value     = '';
-  document.getElementById('filterArea').value      = '';
-  document.getElementById('filterExpertise').value = '';
-  document.getElementById('filterInstitute').value = '';
+  document.getElementById('searchInput').value = '';
+  ['area','exp','inst'].forEach(k => {
+    selectedFilters[k].clear();
+    renderTags(k);
+    renderOptions(k);
+  });
   renderGrid(researchers);
+}
+
+/* ── Multi-select dropdown logic ── */
+const MS_DATA = {
+  area: [
+    "Artificial Intelligence & Data Science",
+    "Biomedical Engineering & Biomedical Research",
+    "Cancer & Oncology",
+    "Cardiovascular Medicine",
+    "Clinical Research & Epidemiology",
+    "Digital Pathology",
+    "Ethics & Responsible AI",
+    "Genomics & Precision Medicine",
+    "Medical Education",
+    "Medical Imaging",
+    "Neuroscience & Neurology",
+    "Surgery & Interventional Medicine"
+  ],
+  exp: [
+    "AI & Data Science",
+    "Bioinformatics & Omics",
+    "Biomedical Engineering",
+    "Clinical Research & Evidence",
+    "Clinical Specialities",
+    "Digital Health & Health Informatics",
+    "Ethics, Policy & Education",
+    "Medical Imaging",
+    "Pathology & Molecular Medicine"
+  ],
+  inst: ["University of Bern", "Inselspital", "sitem-insel"]
+};
+
+function renderOptions(key, filter = '') {
+  const container = document.getElementById('ms-opts-' + key);
+  if (!container) return;
+  const items = MS_DATA[key].filter(i => i.toLowerCase().includes(filter.toLowerCase()));
+  container.innerHTML = items.map(item => `
+    <label class="ms-option ${selectedFilters[key].has(item) ? 'ms-selected' : ''}">
+      <input type="checkbox" ${selectedFilters[key].has(item) ? 'checked' : ''}
+        onchange="toggleItem('${key}', '${item.replace(/&/g,'&amp;').replace(/'/g,"\\'")}', this.checked)" />
+      ${item}
+    </label>
+  `).join('');
+}
+
+function renderTags(key) {
+  const box  = document.getElementById('ms-box-' + key);
+  const ph   = document.getElementById('ms-ph-' + key);
+  const chev = document.getElementById('ms-chev-' + key);
+  if (!box) return;
+  box.querySelectorAll('.ms-pill').forEach(t => t.remove());
+  const tags = [...selectedFilters[key]];
+  ph.style.display = tags.length === 0 ? '' : 'none';
+  tags.forEach(tag => {
+    const pill = document.createElement('span');
+    pill.className = 'ms-pill';
+    pill.innerHTML = `${tag} <button onclick="removeTag('${key}','${tag.replace(/&/g,'&amp;').replace(/'/g,"\\'")}',event)">×</button>`;
+    box.insertBefore(pill, chev);
+  });
+}
+
+function toggleItem(key, item, checked) {
+  if (checked) selectedFilters[key].add(item); else selectedFilters[key].delete(item);
+  renderTags(key);
+  renderOptions(key);
+  applyFilters();
+}
+
+function removeTag(key, item, e) {
+  e.stopPropagation();
+  selectedFilters[key].delete(item);
+  renderTags(key);
+  renderOptions(key);
+  applyFilters();
+}
+
+function msFilterOptions(key, val) { renderOptions(key, val); }
+
+function toggleDropdown(key) {
+  const dd   = document.getElementById('ms-dd-' + key);
+  const chev = document.getElementById('ms-chev-' + key);
+  if (!dd) return;
+  const isOpen = dd.classList.contains('ms-open');
+  ['area','exp','inst'].forEach(k => {
+    const d = document.getElementById('ms-dd-' + k);
+    const c = document.getElementById('ms-chev-' + k);
+    if (d) d.classList.remove('ms-open');
+    if (c) c.classList.remove('ms-chev-open');
+  });
+  if (!isOpen) {
+    dd.classList.add('ms-open');
+    chev.classList.add('ms-chev-open');
+    renderOptions(key);
+    setTimeout(() => { const si = dd.querySelector('.ms-search'); if(si) si.focus(); }, 50);
+  }
+}
+
+document.addEventListener('click', e => {
+  ['area','exp','inst'].forEach(k => {
+    const ms = document.getElementById('ms-wrap-' + k);
+    if (ms && !ms.contains(e.target)) {
+      const d = document.getElementById('ms-dd-' + k);
+      const c = document.getElementById('ms-chev-' + k);
+      if (d) d.classList.remove('ms-open');
+      if (c) c.classList.remove('ms-chev-open');
+    }
+  });
+});
+
+function initMultiSelects() {
+  ['area','exp','inst'].forEach(k => renderOptions(k));
 }
 
 const CARDS_PER_PAGE = 8;
