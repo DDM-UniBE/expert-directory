@@ -54,7 +54,7 @@
     "name": "Prof. Dr. Benjamin Ineichen",
     "group": "Medical Data Science, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Artificial Intelligence & Data Science, Clinical Research",
     "expertise": "AI & Data Science",
     "tag": "Medical Data Science",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html"
@@ -330,7 +330,7 @@
     "name": "Prof. Dr. med. Lars Hemkens",
     "group": "Pragmatic Evidence Lab, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Clinical Research & Epidemiology",
+    "area": "Clinical Research",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education, Clinical Research & Evidence",
     "tag": "Clinical Epidemiology",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
@@ -390,7 +390,7 @@
     "name": "Dr. sc. nat. Yasaman Safarkhanlo",
     "group": "Department of Neurology",
     "institute": "Inselspital",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Artificial Intelligence & Data Science, Clinical Research",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Clinical AI",
     "profileUrl": "https://yaskhanloo.me"
