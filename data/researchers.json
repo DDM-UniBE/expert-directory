@@ -32,7 +32,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Oncology",
     "expertise": "Clinical Specialities",
-    "tag": "Radiation Oncology",
+    "tag": "Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk"
   },
   {
@@ -44,7 +44,7 @@
     "institute": "University of Bern · Inselspital · sitem-insel school",
     "area": "Oncology",
     "expertise": "Clinical Specialities, Ethics, Policy & Education",
-    "tag": "Radio-Oncology",
+    "tag": "Oncology",
     "profileUrl": "https://www.medizin.unibe.ch/ueber_uns/personen/prof_dr_knopf_antje/index_ger.html"
   },
   {
@@ -56,7 +56,7 @@
     "institute": "University of Bern",
     "area": "Data Science",
     "expertise": "AI & Data Science",
-    "tag": "AI & Data Science",
+    "tag": "Data Science",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html"
   },
   {
@@ -68,7 +68,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Neuroscience",
     "expertise": "Clinical Specialities",
-    "tag": "Neuroradiology",
+    "tag": "Neuroscience",
     "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest"
   },
   {
@@ -80,7 +80,7 @@
     "institute": "Inselspital",
     "area": "Therapeutics",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
-    "tag": "Cardiac Surgery",
+    "tag": "Therapeutics",
     "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
   },
   {
@@ -92,7 +92,7 @@
     "institute": "Inselspital",
     "area": "Oncology",
     "expertise": "Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
-    "tag": "Liver Cancer",
+    "tag": "Oncology",
     "profileUrl": "https://bauchzentrum-bern.ch/de/unser-team/details/person/detail/anja-lachenmayer"
   },
   {
@@ -104,7 +104,7 @@
     "institute": "Inselspital",
     "area": "Neuroscience",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
-    "tag": "Neuroimaging",
+    "tag": "Neuroscience",
     "profileUrl": "mailto:Richard.mckinley@insel.ch"
   },
   {
@@ -116,7 +116,7 @@
     "institute": "Inselspital",
     "area": "Pediatrics",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Pathology & Molecular Medicine",
-    "tag": "Pediatric Endocrinology",
+    "tag": "Pediatrics",
     "profileUrl": "https://www.pandeylab.org/"
   },
   {
@@ -128,7 +128,7 @@
     "institute": "Inselspital · University of Bern",
     "area": "Genomics",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
-    "tag": "Computational Biology",
+    "tag": "Genomics",
     "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/dr_chouvardas_panagiotis/index_eng.html"
   },
   {
@@ -212,7 +212,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Oncology",
     "expertise": "Clinical Research & Evidence",
-    "tag": "Prostate Cancer",
+    "tag": "Oncology",
     "profileUrl": "Marianna.kruithofdejulio@unibe.ch"
   },
   {
@@ -224,7 +224,7 @@
     "institute": "University of Bern",
     "area": "Epidemiology",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
-    "tag": "Patient Safety",
+    "tag": "Epidemiology",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
   },
   {
@@ -234,9 +234,9 @@
     "name": "Dr. PhD Ali Hashemi Gheinani",
     "group": "Functional Urology Research, DBMR",
     "institute": "University of Bern · Inselspital",
-    "area": "Genomics",
+    "area": "Therapeutics",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
-    "tag": "Urology",
+    "tag": "Therapeutics",
     "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html"
   },
   {
