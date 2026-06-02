@@ -18,9 +18,9 @@
     "name": "Prof. Dr. Mauricio Reyes",
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
-    "area": "Biomedical Imaging",
+    "area": "Medical Imaging",
     "expertise": "Biomedical Engineering",
-    "tag": "Biomedical Imaging",
+    "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
   },
   {
@@ -250,5 +250,17 @@
     "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
     "tag": "Biosensing & Wearables",
     "profileUrl": "https://samlab.org"
+  },
+      {
+    "initials": "SP",
+    "firstName": "Lilian",
+    "photo": "assets/headshots/simone-poli.jpg",
+    "name": "Dr. Ing. PhD Simone Poli",
+    "group": "Department of Diagnostic, Interventional and Pediatric Radiology",
+    "institute": "Inselspital",
+    "area": "Medical Imaging",
+    "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
+    "tag": "Medical Imaging",
+    "profileUrl": "https://www.linkedin.com/in/simone-poli-phd-546128b9/?locale=it_IT"
   }
 ]
