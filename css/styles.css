@@ -484,7 +484,7 @@ body {
   color: #666;
   letter-spacing: 0.02em;
   white-space: nowrap;
-  min-width: 200px;
+  min-width: 280px;
   text-align: center;
 }
 
@@ -573,7 +573,7 @@ body {
 /* ── MULTI-SELECT DROPDOWNS ── */
 .ms-wrap {
   position: relative;
-  min-width: 200px;
+  min-width: 280px;
 }
 .ms-box {
   display: flex;
@@ -625,7 +625,7 @@ body {
 .ms-pill button:hover { color: #C8102E; }
 .ms-placeholder {
   font-size: 15px;
-  color: #aaa;
+  color: #444;
   line-height: 28px;
   font-family: inherit;
 }
