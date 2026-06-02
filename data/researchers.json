@@ -6,7 +6,7 @@
     "name": "Prof. Dr. phil. nat. Inti Zlobec",
     "group": "Institute for Tissue Medicine and Pathology",
     "institute": "University of Bern",
-    "area": "Digital Pathology",
+    "area": "Genomics",
     "expertise": "Pathology & Molecular Medicine",
     "tag": "Digital Pathology",
     "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/zlobec_inti/index_eng.html"
@@ -18,7 +18,7 @@
     "name": "Prof. Dr. Mauricio Reyes",
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
-    "area": "Biomedical Engineering",
+    "area": "Medical Imaging",
     "expertise": "Biomedical Engineering",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
@@ -30,7 +30,7 @@
     "name": "Prof. Dr. Sarah Brüningk",
     "group": "Center of AI in Radiation Oncology, UKRO",
     "institute": "University of Bern · Inselspital",
-    "area": "Radiation Oncology",
+    "area": "Oncology",
     "expertise": "Clinical Specialities",
     "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk"
@@ -42,7 +42,7 @@
     "name": "Prof. Dr. Antje Knopf",
     "group": "Department of Radio-Oncology",
     "institute": "University of Bern · Inselspital · sitem-insel school",
-    "area": "Radiation Oncology",
+    "area": "Oncology",
     "expertise": "Clinical Specialities, Ethics, Policy & Education",
     "tag": "Radio-Oncology",
     "profileUrl": "https://www.medizin.unibe.ch/ueber_uns/personen/prof_dr_knopf_antje/index_ger.html"
@@ -54,7 +54,7 @@
     "name": "Prof. Dr. Benjamin Ineichen",
     "group": "Medical Data Science, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "AI & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "AI & Data Science",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html"
@@ -66,7 +66,7 @@
     "name": "Prof. Dr. med. Roland Wiest",
     "group": "Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "University of Bern · Inselspital",
-    "area": "Neuroimaging & Neuroradiology",
+    "area": "Neuroscience",
     "expertise": "Clinical Specialities",
     "tag": "Neuroradiology",
     "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest"
@@ -78,7 +78,7 @@
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
     "institute": "Inselspital",
-    "area": "Surgical Specialities",
+    "area": "Therapeutics",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Cardiac Surgery",
     "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
@@ -90,7 +90,7 @@
     "name": "Prof. Dr. med. Anja Lachenmayer",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital",
-    "area": "Liver Cancer",
+    "area": "Oncology",
     "expertise": "Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
     "tag": "Liver Cancer",
     "profileUrl": "https://bauchzentrum-bern.ch/de/unser-team/details/person/detail/anja-lachenmayer"
@@ -102,7 +102,7 @@
     "name": "PD. PhD Richard McKinley",
     "group": "Support Center For Advanced Neuroimaging, Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "Inselspital",
-    "area": "Neuroimaging & Neuroradiology",
+    "area": "Neuroscience",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
     "tag": "Neuroimaging",
     "profileUrl": "mailto:Richard.mckinley@insel.ch"
@@ -114,7 +114,7 @@
     "name": "Prof. Dr. Amit Pandey",
     "group": "Department of Pediatrics, University Children's Hospital Bern",
     "institute": "Inselspital",
-    "area": "Pediatric Endocrinology",
+    "area": "Pediatrics",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Pathology & Molecular Medicine",
     "tag": "Pediatric Endocrinology",
     "profileUrl": "https://www.pandeylab.org/"
@@ -126,7 +126,7 @@
     "name": "PD Dr. Panagiotis Chouvardas",
     "group": "Department of Urology, Department for BioMedical Research",
     "institute": "Inselspital · University of Bern",
-    "area": "Computational Biology",
+    "area": "Genomics",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Computational Biology",
     "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/dr_chouvardas_panagiotis/index_eng.html"
@@ -138,19 +138,19 @@
     "name": "PhD Dr. Hugo Armando Guillen Ramirez",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital · University of Bern",
-    "area": "Machine Learning in Medicine",
+    "area": "Data Science",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
     "tag": "Machine Learning",
     "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
   },
-    {
+  {
     "initials": "RV",
     "firstName": "Rosni",
     "photo": "assets/headshots/rosni-vasu.jpg",
     "name": "Dr. sc. Rosni Vasu",
     "group": "Medical Data Science, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "AI & Data Science",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "AI & Data Science",
     "profileUrl": "https://rosnikv.github.io/"
@@ -167,91 +167,91 @@
     "tag": "Microbiology",
     "profileUrl": "https://www.anatomie.unibe.ch/about_us/team/detail/index_eng.php?id=329"
   },
-    {
+  {
     "initials": "AK",
     "firstName": "Amjad",
     "photo": "assets/headshots/amjad-khan.jpg",
     "name": "Dr. sc. Nat. Amjad Khan",
     "group": "Institute of Tissue Medicine and Pathology",
     "institute": "University of Bern",
-    "area": "Digital Pathology",
+    "area": "Genomics",
     "expertise": "AI & Data Science, Biomedical Engineering, Bioinformatics & Omics",
     "tag": "Digital Pathology",
     "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/khan_amjad/index_eng.html"
   },
-      {
+  {
     "initials": "DG",
     "firstName": "David",
     "photo": "assets/headshots/david-ginsbourger.jpg",
     "name": "Prof. Dr. David Ginsbourger",
     "group": "Uncertainty Quantification and Spatial Statistics Group, IMSV",
     "institute": "University of Bern",
-    "area": "Machine Learning in Medicine",
+    "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "Machine Learning",
     "profileUrl": "https://ginsbourger.github.io/"
   },
-      {
+  {
     "initials": "DO",
     "firstName": "Dominik",
     "photo": "assets/headshots/dominik-obrist.jpg",
     "name": "Prof. Dr. Dominik Obrist",
     "group": "Cardiovascular Engineering, ARTORG",
     "institute": "University of Bern",
-    "area": "Cardiovascular Engineering",
+    "area": "Medical Imaging",
     "expertise": "AI & Data Science, Biomedical Engineering, Medical Imaging, Digital Health & Health Informatics",
     "tag": "Cardiovascular Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/cve/group_members/staff/prof_dr_obrist_dominik/index_eng.html"
   },
-      {
+  {
     "initials": "MK",
     "firstName": "Marianna",
     "photo": "assets/headshots/marianna-kruithofdejulio.jpeg",
     "name": "Prof. PhD Marianna Kruithof-de Julio",
     "group": "Urology Research Laboratory (Urogenus)",
     "institute": "University of Bern · Inselspital",
-    "area": "Prostate Cancer",
+    "area": "Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Prostate Cancer",
     "profileUrl": "Marianna.kruithofdejulio@unibe.ch"
   },
-      {
+  {
     "initials": "DS",
     "firstName": "David",
     "photo": "assets/headshots/david-schwappach.jpg",
     "name": "Prof. Dr. David Schwappach",
     "group": "Patient Safety in Health Services, ISPM",
     "institute": "University of Bern",
-    "area": "Patient Safety",
+    "area": "Epidemiology",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
     "tag": "Patient Safety",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
   },
-      {
+  {
     "initials": "AH",
     "firstName": "Ali",
     "photo": "assets/headshots/ali-hashemigheinani.jpg",
     "name": "Dr. PhD Ali Hashemi Gheinani",
     "group": "Functional Urology Research, DBMR",
     "institute": "University of Bern · Inselspital",
-    "area": "Computational Biology",
+    "area": "Genomics",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Urology",
     "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html"
   },
-      {
+  {
     "initials": "LW",
     "firstName": "Lilian",
     "photo": "assets/headshots/lilan-witthauer.jpeg",
     "name": "Prof. Dr. phil. Lilian Witthauer",
     "group": "Sensing and Monitoring Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
     "institute": "University of Bern · Inselspital",
-    "area": "Biosensing & Wearables",
+    "area": "Diabetes",
     "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
     "tag": "Biosensing & Wearables",
     "profileUrl": "https://samlab.org"
   },
-      {
+  {
     "initials": "SP",
     "firstName": "Simone",
     "photo": "assets/headshots/simone-poli.jpg",
@@ -263,31 +263,31 @@
     "tag": "Medical Imaging",
     "profileUrl": "https://www.linkedin.com/in/simone-poli-phd-546128b9/?locale=it_IT"
   },
-      {
+  {
     "initials": "AB",
     "firstName": "Andrej",
     "photo": "assets/headshots/andrej-benjak.jpeg",
     "name": "Dr. Andrej Benjak",
     "group": "BioMed Data Science Hub, DBMR",
     "institute": "University of Bern",
-    "area": "Cancer Genomics",
+    "area": "Genomics",
     "expertise": "Bioinformatics & Omics",
     "tag": "Cancer Genomics",
     "profileUrl": "https://biomedhub.unibe.ch/about_us/members/people/dr_benjak_andrej/index_eng.html"
   },
-      {
+  {
     "initials": "RN",
     "firstName": "Ruiqing",
     "photo": "assets/headshots/ruiqing-ni.jpg",
     "name": "PD. PhD Ruiqing Ni",
     "group": "Department of Nuclear Medicine",
     "institute": "University of Bern · Inselspital",
-    "area": "Neuroimaging & Neuroradiology",
+    "area": "Neuroscience",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine",
     "tag": "Neuroimaging",
     "profileUrl": "Ruiqing.ni@unibe.ch"
   },
-      {
+  {
     "initials": "SG",
     "firstName": "Sissel",
     "photo": "assets/headshots/sissel-guttormsen.jpg",
@@ -299,31 +299,31 @@
     "tag": "Medical Education",
     "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/guttormsen-sissel?department=direktion"
   },
-      {
+  {
     "initials": "OG",
     "firstName": "Oliver",
     "photo": "assets/headshots/oliver-guenat.png",
     "name": "Prof. Dr. Oliver Guenat",
     "group": "Organs-on-Chip Technologies Lab, ARTORG",
     "institute": "University of Bern",
-    "area": "Biomedical Engineering",
+    "area": "Medical Imaging",
     "expertise": "Biomedical Engineering",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/ooc/index_eng.html"
   },
-      {
+  {
     "initials": "TM",
     "firstName": "Theoni",
     "photo": "assets/headshots/theoni-maragkou.jpg",
     "name": "PD Dr. med. Theoni Maragkou",
     "group": "Institute of Tissue Medicine and Pathology",
     "institute": "University of Bern",
-    "area": "Neuro-Oncology",
+    "area": "Oncology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Neuro-Oncology",
     "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html"
   },
-      {
+  {
     "initials": "LH",
     "firstName": "Lars",
     "photo": "assets/headshots/lars-hemkens.jpg",
@@ -335,19 +335,19 @@
     "tag": "Epidemiology",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
   },
-      {
+  {
     "initials": "LK",
     "firstName": "Lisa",
     "photo": "assets/headshots/lisa-koch.jpg",
     "name": "Prof. Dr. Lisa Koch",
     "group": "Machine Learning in Medicine Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
     "institute": "University of Bern",
-    "area": "Machine Learning in Medicine",
+    "area": "Diabetes",
     "expertise": "AI & Data Science, Medical Imaging",
     "tag": "Machine Learning",
     "profileUrl": "www.mlm-lab.ch"
   },
-      {
+  {
     "initials": "SH",
     "firstName": "Soren",
     "photo": "assets/headshots/soeren-huwendiek.jpg",
@@ -359,7 +359,7 @@
     "tag": "Medical Education",
     "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren"
   },
-      {
+  {
     "initials": "RH",
     "firstName": "Robert",
     "photo": "assets/headshots/robert-hoepner.jpg",
@@ -371,91 +371,91 @@
     "tag": "Neurology",
     "profileUrl": "Robert.hoepner@insel.ch"
   },
-      {
+  {
     "initials": "HT",
     "firstName": "Hendrik",
     "photo": "assets/headshots/hendrik von_tengg_koblig.jpg",
     "name": "MD. Dr. med. Prof. Hendrik von Tengg-Kobligk",
     "group": "Department of Diagnostic, Interventional and Pediatric Radiology · Department of BioMedical Research",
     "institute": "Inselspital · University of Bern",
-    "area": "Vascular Medicine",
+    "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence",
     "tag": "Vascular Medicine",
     "profileUrl": "hendrik.vontengg@insel.ch"
   },
-      {
+  {
     "initials": "YS",
     "firstName": "Yasaman",
     "photo": "",
     "name": "Dr. sc. nat. Yasaman Safarkhanlo",
     "group": "Department of Neurology",
     "institute": "Inselspital",
-    "area": "Clinical AI",
+    "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Clinical AI",
     "profileUrl": "https://yaskhanloo.me"
   },
-      {
+  {
     "initials": "FS",
     "firstName": "Franziska",
     "photo": "assets/headshots/franziska-siegenthaler.jpg",
     "name": "PD Dr. med. Franziska Siegenthaler",
     "group": "University Clinic for Gynecology · SCI (Swiss Cancer Institute)",
     "institute": "Inselspital",
-    "area": "Gynecologic oncology",
+    "area": "Oncology",
     "expertise": "Clinical Research & Evidence, Clinical Specialities",
     "tag": "Gynecologic oncology",
     "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler"
   },
-      {
+  {
     "initials": "GS",
     "firstName": "Guillaume",
     "photo": "assets/headshots/guillaume-speierer.jpg",
     "name": "Dr. med. Guillaume Speierer",
     "group": "Internal Medicine",
     "institute": "Inselspital",
-    "area": "Clinical AI",
+    "area": "Medical Imaging",
     "expertise": "AI & Data Science, Clinical Specialities",
     "tag": "Clinical AI",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
   },
-      {
+  {
     "initials": "MD",
     "firstName": "Moritz",
     "photo": "assets/headshots/moritz-deml.jpg",
     "name": "Prof. Dr. med. Moritz Deml",
     "group": "Department for Orthopaedic and Trauma Surgery",
     "institute": "Inselspital",
-    "area": "Surgical Specialities",
+    "area": "Therapeutics",
     "expertise": "Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
     "tag": "Spine Surgery",
     "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml"
   },
-      {
+  {
     "initials": "SI",
     "firstName": "Sara",
     "photo": "assets/headshots/sara-imboden.jpg",
     "name": "PD Dr.med. Sara Imboden",
     "group": "University Clinic for Gynecology · DBMR",
     "institute": "Inselspital · University of Bern",
-    "area": "Gynecologic oncology",
+    "area": "Oncology",
     "expertise": "Clinical Specialities, Clinical Research & Evidence",
     "tag": "Gynecologic oncology",
     "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/personlist/34/person/detail/sara-imboden"
   },
-      {
+  {
     "initials": "OE",
     "firstName": "Olgun",
     "photo": "assets/headshots/olgun-elicin.jpg",
     "name": "PD Dr.med. Olgun Elicin",
     "group": "Department of Radiation Oncology",
     "institute": "Inselspital · University of Bern",
-    "area": "Radiation Oncology",
+    "area": "Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/personlist/6/person/detail/olgun-elicin"
   },
-      {
+  {
     "initials": "CG",
     "firstName": "Christoph",
     "photo": "assets/headshots/christoph-gräni.jpg",
@@ -464,10 +464,10 @@
     "institute": "Inselspital · University of Bern",
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
-    "tag": "Cardiac Imaging & AI",
+    "tag": "Cardiac Imaging",
     "profileUrl": "https://ai-cvm.org/"
   },
-      {
+  {
     "initials": "PL",
     "firstName": "Philipp",
     "photo": "assets/headshots/philipp-latzin.jpg",
@@ -478,5 +478,17 @@
     "expertise": "Biomedical Engineering, Clinical Research & Evidence, Clinical Specialities",
     "tag": "Lung Imaging",
     "profileUrl": "Philipp.latzin@insel.ch"
+  },
+  {
+    "initials": "DS",
+    "firstName": "Daniel",
+    "photo": "assets/headshots/daniel-schanne.png",
+    "name": "Dr. med. Daniel Schanne",
+    "group": "University Clinic for Radiation Oncology",
+    "institute": "Inselspital",
+    "area": "Oncology",
+    "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Bioinformatics & Omics, Clinical Research & Evidence",
+    "tag": "Oncology",
+    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/daniel-schanne"
   }
 ]
