@@ -202,5 +202,17 @@
     "expertise": "AI & Data Science, Biomedical Engineering, Medical Imaging, Digital Health & Health Informatics",
     "tag": "Cardiovascular Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/cve/group_members/staff/prof_dr_obrist_dominik/index_eng.html"
+  },
+      {
+    "initials": "MK",
+    "firstName": "Marianna",
+    "photo": "assets/headshots/marianna-kruithofdejulio.jpeg",
+    "name": "Prof. PhD Marianna Kruithof-de Julio",
+    "group": "Urology Research Laboratory (Urogenus)",
+    "institute": "University of Bern · Inselspital",
+    "area": "Prostate Cancer",
+    "expertise": "Preclinical Research",
+    "tag": "Prostate Cancer",
+    "profileUrl": "Marianna.kruithofdejulio@unibe.ch"
   }
 ]
