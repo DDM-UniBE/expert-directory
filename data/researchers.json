@@ -32,7 +32,7 @@
     "institute": "University of Bern · Inselspital",
     "area": "Cancer & Oncology",
     "expertise": "Clinical Specialities",
-    "tag": "Gynaecological Oncology",
+    "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk"
   },
   {
@@ -78,7 +78,7 @@
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
     "institute": "Inselspital",
-    "area": "Surgery & Interventional Medicine",
+    "area": "Cardiovascular Medicine",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Cardiac Surgery",
     "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
@@ -140,7 +140,7 @@
     "institute": "Inselspital · University of Bern",
     "area": "Artificial Intelligence & Data Science",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
-    "tag": "Machine Learning & AI in Medicine",
+    "tag": "AI & Machine Learning",
     "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
   },
   {
@@ -222,9 +222,9 @@
     "name": "Prof. Dr. David Schwappach",
     "group": "Patient Safety in Health Services, ISPM",
     "institute": "University of Bern",
-    "area": "Artificial Intelligence & Data Science",
+    "area": "Clinical Research & Epidemiology",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
-    "tag": "Machine Learning",
+    "tag": "Patient Safety",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
   },
   {
