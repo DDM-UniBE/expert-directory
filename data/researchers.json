@@ -105,7 +105,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
     "tag": "Neuroimaging",
-    "profileUrl": "mailto:Richard.mckinley@insel.ch"
+    "profileUrl": "mailto:richard.mckinley@insel.ch"
   },
   {
     "initials": "AP",
@@ -213,7 +213,7 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Urological Oncology",
-    "profileUrl": "Marianna.kruithofdejulio@unibe.ch"
+    "profileUrl": "mailto:marianna.kruithofdejulio@unibe.ch"
   },
   {
     "initials": "DS",
@@ -285,7 +285,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine",
     "tag": "Neuroimaging",
-    "profileUrl": "Ruiqing.ni@unibe.ch"
+    "profileUrl": "mailto:ruiqing.ni@unibe.ch"
   },
   {
     "initials": "SG",
@@ -369,7 +369,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Patholoy & Molecular Medicine",
     "tag": "Neurology",
-    "profileUrl": "Robert.hoepner@insel.ch"
+    "profileUrl": "mailto:robert.hoepner@insel.ch"
   },
   {
     "initials": "HT",
@@ -477,7 +477,7 @@
     "area": "Medical Imaging",
     "expertise": "Biomedical Engineering, Clinical Research & Evidence, Clinical Specialities",
     "tag": "Lung Imaging",
-    "profileUrl": "Philipp.latzin@insel.ch"
+    "profileUrl": "mailto:philipp.latzin@insel.ch"
   },
   {
     "initials": "DS",
@@ -501,6 +501,6 @@
     "area": "Ethics & Responsible AI",
     "expertise": "Ethics, Policy & Education",
     "tag": "Ethics",
-    "profileUrl": "Rouven.porz@insel.ch"
+    "profileUrl": "mailto:rouven.porz@insel.ch"
   }
 ]
