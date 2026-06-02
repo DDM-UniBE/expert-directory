@@ -224,16 +224,16 @@
     "institute": "University of Bern",
     "area": "Artificial Intelligence & Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
-    "tag": "Machine Learning",
+    "tag": "Patient Safety",
     "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
   },
-
+{
     "initials": "AH",
     "firstName": "Ali",
     "photo": "assets/headshots/ali-hashemigheinani.jpg",
     "name": "Dr. PhD Ali Hashemi Gheinani",
     "group": "Functional Urology Research, DBMR",
-    "institute": "University of Bern · Inselspital",
+    "institute" "University of Bern · Inselspital",
     "area": "Genomics & Precision Medicine",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Computational Biology",
