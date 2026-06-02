@@ -193,6 +193,12 @@ function slideTo(direction) {
     grid.classList.add(inClass);
     setTimeout(() => grid.classList.remove(inClass), 350);
   }, 300);
+
+  // Scroll to top of cards section
+  const cardsSection = document.querySelector('.cards-section-wrap');
+  if (cardsSection) {
+    cardsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 document.getElementById('prevBtn').addEventListener('click', () => {
