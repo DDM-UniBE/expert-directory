@@ -496,20 +496,20 @@ body {
   overflow: hidden;
 }
 @keyframes slideOutLeft {
-  from { transform: translateX(0); opacity: 1; }
-  to   { transform: translateX(-60px); opacity: 0; }
+  from { transform: translateX(0); }
+  to   { transform: translateX(-60px); }
 }
 @keyframes slideOutRight {
-  from { transform: translateX(0); opacity: 1; }
-  to   { transform: translateX(60px); opacity: 0; }
+  from { transform: translateX(0); }
+  to   { transform: translateX(60px); }
 }
 @keyframes slideInRight {
-  from { transform: translateX(60px); opacity: 0; }
-  to   { transform: translateX(0); opacity: 1; }
+  from { transform: translateX(60px); }
+  to   { transform: translateX(0); }
 }
 @keyframes slideInLeft {
-  from { transform: translateX(-60px); opacity: 0; }
-  to   { transform: translateX(0); opacity: 1; }
+  from { transform: translateX(-60px); }
+  to   { transform: translateX(0); }
 }
 .slide-out-left  { animation: slideOutLeft  0.3s ease forwards; }
 .slide-out-right { animation: slideOutRight 0.3s ease forwards; }
