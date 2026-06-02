@@ -322,5 +322,17 @@
     "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Neuro-Oncology",
     "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html"
+  },
+      {
+    "initials": "LH",
+    "firstName": "Lars",
+    "photo": "assets/headshots/theoni-maragkou.jpg",
+    "name": "Prof. Dr. med. Lars Hemkens",
+    "group": "Pragmatic Evidence Lab, Department of Clinical Research",
+    "institute": "University of Bern",
+    "area": "Neuro-Oncology",
+    "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
+    "tag": "Neuro-Oncology",
+    "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
   }
 ]
