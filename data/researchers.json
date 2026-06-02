@@ -398,7 +398,7 @@
       {
     "initials": "FS",
     "firstName": "Franziska",
-    "photo": "assets/headshots/rouven-porz.png",
+    "photo": "assets/headshots/franziska-siegenthaler.jpg",
     "name": "PD Dr. med. Franziska Siegenthaler",
     "group": "University Clinic for Gynecology · SCI (Swiss Cancer Institute)",
     "institute": "Inselspital",
@@ -406,5 +406,17 @@
     "expertise": "Clinical Research & Evidence, Clinical Specialities",
     "tag": "Gynecologic oncology",
     "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler"
+  },
+      {
+    "initials": "GS",
+    "firstName": "Guillaume",
+    "photo": "assets/headshots/guillaume-speierer.jpg",
+    "name": "Dr. med. Guillaume Speierer",
+    "group": "Internal Medicine",
+    "institute": "Inselspital",
+    "area": "Clinical AI",
+    "expertise": "AI & Data Science, Clinical Specialities",
+    "tag": "Clinical AI",
+    "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
   }
 ]
