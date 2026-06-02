@@ -238,5 +238,17 @@
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Urology & Computational Biology",
     "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html"
+  },
+      {
+    "initials": "LW",
+    "firstName": "Lilian",
+    "photo": "assets/headshots/lilan-witthauer.jpeg",
+    "name": "Prof. Dr. phil. Lilian Witthauer",
+    "group": "Sensing and Monitoring Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
+    "institute": "University of Bern · Inselspital",
+    "area": "Biosensing & Wearables",
+    "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
+    "tag": "Biosensing & Wearables",
+    "profileUrl": "https://samlab.org"
   }
 ]
