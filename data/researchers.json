@@ -326,13 +326,13 @@
       {
     "initials": "LH",
     "firstName": "Lars",
-    "photo": "assets/headshots/theoni-maragkou.jpg",
+    "photo": "assets/headshots/lars-hemkens.jpg",
     "name": "Prof. Dr. med. Lars Hemkens",
     "group": "Pragmatic Evidence Lab, Department of Clinical Research",
     "institute": "University of Bern",
-    "area": "Neuro-Oncology",
-    "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
-    "tag": "Neuro-Oncology",
+    "area": "Epidemiology",
+    "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education, Clinical Research & Evidence",
+    "tag": "Epidemiology",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
   }
 ]
