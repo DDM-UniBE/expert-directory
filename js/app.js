@@ -51,9 +51,11 @@ function applyFilters() {
 
   const filtered = researchers.filter(r =>
     (!q || r.name.toLowerCase().includes(q) ||
-           r.group.toLowerCase().includes(q) ||
-           r.tag.toLowerCase().includes(q) ||
-           r.institute.toLowerCase().includes(q)) &&
+       r.group.toLowerCase().includes(q) ||
+       r.tag.toLowerCase().includes(q) ||
+       r.area.toLowerCase().includes(q) ||
+       r.expertise.toLowerCase().includes(q) ||
+       r.institute.toLowerCase().includes(q)) &&
     (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
     (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
     (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
