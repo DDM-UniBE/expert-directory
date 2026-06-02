@@ -138,7 +138,7 @@
     "name": "PhD Dr. Hugo Armando Guillen Ramirez",
     "group": "Department of Visceral Surgery and Medicine",
     "institute": "Inselspital · University of Bern",
-    "area": "Machine Learning",
+    "area": "Machine Learning in Medicine",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
     "tag": "Machine Learning",
     "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
@@ -186,7 +186,7 @@
     "name": "Prof. Dr. David Ginsbourger",
     "group": "Uncertainty Quantification and Spatial Statistics Group, IMSV",
     "institute": "University of Bern",
-    "area": "Machine Learning",
+    "area": "Machine Learning in Medicine",
     "expertise": "AI & Data Science",
     "tag": "Machine Learning",
     "profileUrl": "https://ginsbourger.github.io/"
@@ -334,5 +334,17 @@
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education, Clinical Research & Evidence",
     "tag": "Epidemiology",
     "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
+  },
+      {
+    "initials": "LK",
+    "firstName": "Lisa",
+    "photo": "assets/headshots/lars-hemkens.jpg",
+    "name": "Prof. Dr. Lisa Koch",
+    "group": "Machine Learning in Medicine Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
+    "institute": "University of Bern",
+    "area": "Machine Learning in Medicine",
+    "expertise": "AI & Data Science, Medical Imaging",
+    "tag": "Machine Learning",
+    "profileUrl": "www.mlm-lab.ch"
   }
 ]
