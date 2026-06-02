@@ -115,7 +115,7 @@
     "group": "Department of Pediatrics, University Children's Hospital Bern",
     "institute": "Inselspital",
     "area": "Pediatric Endocrinology",
-    "expertise": "AI & Data Science, Bioinformatics & Omics, Ethics, Pathology & Molecular Medicine",
+    "expertise": "AI & Data Science, Bioinformatics & Omics, Pathology & Molecular Medicine",
     "tag": "Pediatric Endocrinology",
     "profileUrl": "https://www.pandeylab.org/"
   },
@@ -338,7 +338,7 @@
       {
     "initials": "LK",
     "firstName": "Lisa",
-    "photo": "assets/headshots/lars-hemkens.jpg",
+    "photo": "assets/headshots/lisa-koch.jpg",
     "name": "Prof. Dr. Lisa Koch",
     "group": "Machine Learning in Medicine Lab, Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism",
     "institute": "University of Bern",
@@ -346,5 +346,65 @@
     "expertise": "AI & Data Science, Medical Imaging",
     "tag": "Machine Learning",
     "profileUrl": "www.mlm-lab.ch"
+  },
+      {
+    "initials": "SH",
+    "firstName": "Soren",
+    "photo": "assets/headshots/soeren-huwendiek.jpg",
+    "name": "Prof. Sören Huwendiek",
+    "group": "Department for Assessment and Evaluatiom, Institute for Medical Education",
+    "institute": "University of Bern",
+    "area": "Medical Education",
+    "expertise": "Ethics, Policy & Education",
+    "tag": "Medical Education",
+    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren"
+  },
+      {
+    "initials": "RH",
+    "firstName": "Robert",
+    "photo": "assets/headshots/robert-hoepner.jpg",
+    "name": "Prof. Dr. med. Robert Hoepner",
+    "group": "Department of Neurology",
+    "institute": "University of Bern · Inselspital",
+    "area": "Neurology",
+    "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Patholoy & Molecular Medicine",
+    "tag": "Neurology",
+    "profileUrl": "Robert.hoepner@insel.ch"
+  },
+      {
+    "initials": "HT",
+    "firstName": "Hendrik",
+    "photo": "assets/headshots/hendrik von_tengg_koblig.jpg",
+    "name": "MD. Dr. med. Prof. Hendrik von Tengg-Kobligk",
+    "group": "Department of Diagnostic, Interventional and Pediatric Radiology · Department of BioMedical Research",
+    "institute": "Inselspital · University of Bern",
+    "area": "Vascular Medicine",
+    "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence",
+    "tag": "Vascular Medicine",
+    "profileUrl": "hendrik.vontengg@insel.ch"
+  },
+      {
+    "initials": "YS",
+    "firstName": "Yasaman",
+    "photo": "",
+    "name": "Dr. sc. nat. Yasaman Safarkhanlo",
+    "group": "Department of Neurology",
+    "institute": "Inselspital",
+    "area": "Clinical AI",
+    "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
+    "tag": "Clinical AI",
+    "profileUrl": "https://yaskhanloo.me"
+  },
+      {
+    "initials": "FS",
+    "firstName": "Franziska",
+    "photo": "assets/headshots/rouven-porz.png",
+    "name": "PD Dr. med. Franziska Siegenthaler",
+    "group": "University Clinic for Gynecology · SCI (Swiss Cancer Institute)",
+    "institute": "Inselspital",
+    "area": "Gynecologic oncology",
+    "expertise": "Clinical Research & Evidence, Clinical Specialities",
+    "tag": "Gynecologic oncology",
+    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler"
   }
 ]
