@@ -112,7 +112,7 @@ function renderPage() {
 
   const pagination = document.getElementById('pagination');
   pagination.style.display = 'flex';
-  document.getElementById('paginationInfo').innerHTML = `${start + 1}–${end} of ${total} profiles`;
+  document.getElementById('paginationInfo').innerHTML = `Showing ${start + 1}–${end} of ${total} profiles`;
   document.getElementById('prevBtn').disabled = currentPage === 1;
   document.getElementById('nextBtn').disabled = currentPage === totalPages;
 }
