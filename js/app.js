@@ -79,7 +79,6 @@ const MS_DATA = {
     "Biomedical Engineering & Biomedical Research",
     "Cancer & Oncology",
     "Cardiovascular Medicine",
-    "Clinical Research & Epidemiology",
     "Data Science",
     "Digital Pathology",
     "Ethics & Responsible AI",
