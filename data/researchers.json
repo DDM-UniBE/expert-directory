@@ -78,7 +78,7 @@
     "name": "Dr. med. Maris Bartkevics",
     "group": "Department of Cardiac Surgery",
     "institute": "Inselspital",
-    "area": "Cardiac Surgery",
+    "area": "Surgical Specialities",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Cardiac Surgery",
     "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
@@ -418,5 +418,17 @@
     "expertise": "AI & Data Science, Clinical Specialities",
     "tag": "Clinical AI",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
+  },
+      {
+    "initials": "MD",
+    "firstName": "Moritz",
+    "photo": "assets/headshots/guillaume-speierer.jpg",
+    "name": "Prof. Dr. med. Moritz Deml",
+    "group": "Department for Orthopaedic and Trauma Surgery",
+    "institute": "Inselspital",
+    "area": "Surgical Specialities",
+    "expertise": "AI & Data Science, Clinical Specialities",
+    "tag": "Spine Surgery",
+    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml"
   }
 ]
