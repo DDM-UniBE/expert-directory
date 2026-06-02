@@ -314,11 +314,6 @@ body {
 .results-meta strong { color: #666; font-weight: 400; }
 
 /* ── GRID — 4 columns ── */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
 
 /* ── CARD ── */
 .card {
@@ -464,7 +459,6 @@ body {
   justify-content: center;
   gap: 24px;
   padding: 32px 0 16px;
-  border-top: 1px solid #e0e0de;
   margin-top: 28px;
 }
 .pagination-btn {
@@ -493,6 +487,34 @@ body {
   min-width: 140px;
   text-align: center;
 }
+
+/* ── CAROUSEL SLIDE ANIMATIONS ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  overflow: hidden;
+}
+@keyframes slideOutLeft {
+  from { transform: translateX(0); opacity: 1; }
+  to   { transform: translateX(-60px); opacity: 0; }
+}
+@keyframes slideOutRight {
+  from { transform: translateX(0); opacity: 1; }
+  to   { transform: translateX(60px); opacity: 0; }
+}
+@keyframes slideInRight {
+  from { transform: translateX(60px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-60px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+.slide-out-left  { animation: slideOutLeft  0.3s ease forwards; }
+.slide-out-right { animation: slideOutRight 0.3s ease forwards; }
+.slide-in-right  { animation: slideInRight  0.35s ease forwards; }
+.slide-in-left   { animation: slideInLeft   0.35s ease forwards; }
 
 /* ── COLLABORATION SECTION ── */
 .collab-section {

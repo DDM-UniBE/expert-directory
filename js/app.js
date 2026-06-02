@@ -65,7 +65,7 @@ function clearFilters() {
   renderGrid(researchers);
 }
 
-const CARDS_PER_PAGE = 9;
+const CARDS_PER_PAGE = 8;
 let currentPage = 1;
 let filteredList = [];
 
@@ -175,11 +175,30 @@ if (mobileMenuOverlay) {
   });
 }
 
-/* ── Pagination buttons ── */
+/* ── Pagination buttons — slide carousel ── */
+function slideTo(direction) {
+  const grid = document.getElementById('grid');
+  const outClass = direction === 'next' ? 'slide-out-left' : 'slide-out-right';
+  const inClass  = direction === 'next' ? 'slide-in-right' : 'slide-in-left';
+
+  grid.classList.add(outClass);
+  setTimeout(() => {
+    grid.classList.remove(outClass);
+    if (direction === 'next') {
+      currentPage++;
+    } else {
+      currentPage--;
+    }
+    renderPage();
+    grid.classList.add(inClass);
+    setTimeout(() => grid.classList.remove(inClass), 350);
+  }, 300);
+}
+
 document.getElementById('prevBtn').addEventListener('click', () => {
-  if (currentPage > 1) { currentPage--; renderPage(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  if (currentPage > 1) slideTo('prev');
 });
 document.getElementById('nextBtn').addEventListener('click', () => {
   const totalPages = Math.ceil(filteredList.length / CARDS_PER_PAGE);
-  if (currentPage < totalPages) { currentPage++; renderPage(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  if (currentPage < totalPages) slideTo('next');
 });
