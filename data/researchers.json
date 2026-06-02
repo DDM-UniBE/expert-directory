@@ -310,5 +310,17 @@
     "expertise": "Biomedical Engineering",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/ooc/index_eng.html"
+  },
+      {
+    "initials": "TM",
+    "firstName": "Theoni",
+    "photo": "assets/headshots/theoni-maragkou.jpg",
+    "name": "PD Dr. med. Theoni Maragkou",
+    "group": "Institute of Tissue Medicine and Pathology",
+    "institute": "University of Bern",
+    "area": "Neuro-Oncology",
+    "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
+    "tag": "Neuro-Oncology",
+    "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html"
   }
 ]
