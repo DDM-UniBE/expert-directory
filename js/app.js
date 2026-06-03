@@ -137,10 +137,13 @@ function getAreaMatches(q) {
       const re = new RegExp(`(^|\\s)${t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(\\s|$)`, 'i');
       return re.test(q);
     })) {
+      // Push both the full area name and key fragments so partial area matches work
       matchedAreas.push(area.toLowerCase());
+      // Also push each word of the area so "Data Science" matches "Artificial Intelligence & Data Science"
+      area.toLowerCase().split(/[\s&,]+/).filter(w => w.length > 3).forEach(w => matchedAreas.push(w));
     }
   }
-  return matchedAreas;
+  return [...new Set(matchedAreas)];
 }
 
 function wordMatch(fields, term) {
