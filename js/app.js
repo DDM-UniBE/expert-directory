@@ -42,81 +42,105 @@ fetch('data/researchers.json')
 /* ── Multi-select state ── */
 const selectedFilters = { area: new Set(), exp: new Set(), inst: new Set() };
 
-/* ── Synonym groups — tied strictly to research areas & expertise ── */
-const SYNONYMS = {
-  // ── Cancer & Oncology ──
-  "cancer":          "oncology, tumour, tumor, neoplasm, carcinoma, malignancy, cancer & oncology",
-  "oncology":        "cancer, tumour, tumor, neoplasm, carcinoma, cancer & oncology",
-  "tumor":           "cancer, oncology, tumour, neoplasm, carcinoma",
-  "tumour":          "cancer, oncology, tumor, neoplasm, carcinoma",
-
-  // ── Artificial Intelligence & Data Science ──
-  "artificial intelligence": "machine learning, deep learning, data science, ai & data science",
-  "machine learning":        "artificial intelligence, deep learning, data science, ai & data science",
-  "deep learning":           "artificial intelligence, machine learning, neural network",
-  "data science":            "artificial intelligence, machine learning, statistics, analytics",
-
-  // ── LLMs — very specific, only expands within NLP family ──
-  "llm":                  "llms, large language model, large language models, natural language processing, nlp",
-  "llms":                 "llm, large language model, large language models, natural language processing, nlp",
-  "large language model": "llm, llms, large language models, natural language processing, nlp",
-  "large language models":"llm, llms, large language model, natural language processing, nlp",
-  "nlp":                  "natural language processing, llm, llms, large language model",
-  "natural language processing": "nlp, llm, llms, large language model",
-
-  // ── Cardiovascular Medicine ──
-  "heart":           "cardiac, cardiovascular, cardiology, cardiovascular medicine",
-  "cardiac":         "heart, cardiovascular, cardiology, cardiovascular medicine",
-  "cardiovascular":  "heart, cardiac, cardiology, cardiovascular medicine",
-  "cardiology":      "heart, cardiac, cardiovascular, cardiovascular medicine",
-
-  // ── Neuroscience & Neurology ──
-  "brain":           "neuroscience, neurology, neuroimaging, neuroradiology, neuroscience & neurology",
-  "neuroscience":    "brain, neurology, neuroimaging, neuroradiology, neuroscience & neurology",
-  "neurology":       "brain, neuroscience, neuroimaging, neuroradiology, neuroscience & neurology",
-  "neuroimaging":    "brain, neuroscience, neurology, neuroradiology",
-  "neuroradiology":  "brain, neuroscience, neurology, neuroimaging",
-
-  // ── Medical Imaging ──
-  "imaging":         "medical imaging, radiology, mri, ct scan",
-  "radiology":       "medical imaging, imaging, mri, ct scan",
-  "mri":             "medical imaging, imaging, radiology, magnetic resonance",
-  "magnetic resonance": "mri, imaging, medical imaging",
-
-  // ── Genomics & Precision Medicine ──
-  "genomics":        "precision medicine, omics, bioinformatics, genetics, genomics & precision medicine",
-  "precision medicine": "genomics, personalised medicine, personalized medicine, biomarker, genomics & precision medicine",
-  "omics":           "genomics, proteomics, transcriptomics, metabolomics, multi-omics, bioinformatics",
-  "bioinformatics":  "genomics, omics, computational biology, data science",
-
-  // ── Biomedical Engineering & Biomedical Research ──
-  "biomedical engineering": "biomedical research, bioengineering, biomedical engineering & biomedical research",
-  "biomedical research":    "biomedical engineering, biomedical engineering & biomedical research",
-
-  // ── Surgery & Interventional Medicine ──
-  "surgery":         "surgical, interventional, minimally invasive, surgery & interventional medicine",
-  "surgical":        "surgery, interventional, minimally invasive",
-
-  // ── Wearables / Biosensing ──
-  "wearable":        "wearables, biosensing, sensor, continuous monitoring",
-  "wearables":       "wearable, biosensing, sensor, continuous monitoring",
-  "biosensing":      "wearable, wearables, sensor",
-
-  // ── Digital Twin — specific ──
-  "digital twin":    "digital twins, digital twinning, simulation",
-  "digital twins":   "digital twin, digital twinning, simulation",
+/* ── Area/Expertise trigger words — typing these matches the whole category ── */
+const AREA_TRIGGERS = {
+  "Artificial Intelligence & Data Science": [
+    "ai", "artificial intelligence", "machine learning", "deep learning",
+    "neural network", "llm", "llms", "large language model", "large language models",
+    "nlp", "natural language processing", "data science", "algorithm"
+  ],
+  "Biomedical Engineering & Biomedical Research": [
+    "biomedical engineering", "biomedical research", "bioengineering",
+    "organ on chip", "organs on chip", "microfluidics", "biosensor",
+    "biomechanics", "biofluids", "nanomaterial"
+  ],
+  "Cancer & Oncology": [
+    "cancer", "oncology", "tumour", "tumor", "neoplasm", "carcinoma",
+    "malignancy", "chemotherapy", "radiotherapy", "immunotherapy", "metastasis"
+  ],
+  "Cardiovascular Medicine": [
+    "heart", "cardiac", "cardiovascular", "cardiology", "coronary",
+    "artery", "vascular", "echocardiography", "myocarditis", "cardiomyopathy"
+  ],
+  "Clinical Research & Epidemiology": [
+    "clinical research", "epidemiology", "clinical trial", "clinical trials",
+    "evidence based", "public health", "patient safety", "quality of care"
+  ],
+  "Digital Pathology": [
+    "pathology", "digital pathology", "histology", "tissue", "biopsy",
+    "histopathology", "spatial profiling", "slide"
+  ],
+  "Ethics & Responsible AI": [
+    "ethics", "responsible ai", "ai ethics", "fairness", "bias",
+    "governance", "explainability", "transparency"
+  ],
+  "Genomics & Precision Medicine": [
+    "genomics", "genome", "genetics", "omics", "multi-omics", "proteomics",
+    "transcriptomics", "metabolomics", "sequencing", "precision medicine",
+    "personalised medicine", "personalized medicine", "bioinformatics",
+    "computational biology", "single cell", "spatial omics"
+  ],
+  "Medical Education": [
+    "medical education", "education", "teaching", "learning", "curriculum",
+    "simulation", "pedagogy", "cognitive science"
+  ],
+  "Medical Imaging": [
+    "imaging", "medical imaging", "mri", "magnetic resonance", "ct scan",
+    "radiology", "radiologist", "ultrasound", "pet scan", "x-ray",
+    "lung imaging", "vascular imaging", "neuroradiology", "spectroscopy"
+  ],
+  "Neuroscience & Neurology": [
+    "brain", "neuro", "neuroscience", "neurology", "neuroimaging",
+    "neuroradiology", "multiple sclerosis", "epilepsy", "dementia",
+    "alzheimer", "parkinson", "stroke", "glioblastoma", "medulloblastoma"
+  ],
+  "Surgery & Interventional Medicine": [
+    "surgery", "surgical", "interventional", "minimally invasive",
+    "spine surgery", "cardiac surgery", "laparoscopic", "navigation"
+  ],
 };
 
-function expandQuery(q) {
-  const terms = new Set([q]);
-  for (const [key, synonymStr] of Object.entries(SYNONYMS)) {
-    // Only match if query exactly equals key or key appears as whole word in query
-    const re = new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(\\s|$)`, 'i');
-    if (re.test(q)) {
-      synonymStr.split(',').forEach(s => terms.add(s.trim().toLowerCase()));
+const EXPERTISE_TRIGGERS = {
+  "AI & Data Science": [
+    "ai", "artificial intelligence", "machine learning", "deep learning", "data science"
+  ],
+  "Bioinformatics & Omics": [
+    "bioinformatics", "omics", "genomics", "proteomics", "transcriptomics", "sequencing"
+  ],
+  "Biomedical Engineering": [
+    "biomedical engineering", "bioengineering", "biomechanics", "biofluids"
+  ],
+  "Clinical Research & Evidence": [
+    "clinical research", "clinical trial", "evidence based", "epidemiology"
+  ],
+  "Clinical Specialities": [
+    "clinical", "medicine", "physician", "clinician"
+  ],
+  "Digital Health & Health Informatics": [
+    "digital health", "health informatics", "ehr", "electronic health record", "digital medicine"
+  ],
+  "Ethics, Policy & Education": [
+    "ethics", "policy", "education", "responsible ai", "governance"
+  ],
+  "Medical Imaging": [
+    "imaging", "mri", "ct scan", "radiology", "ultrasound"
+  ],
+  "Pathology & Molecular Medicine": [
+    "pathology", "molecular medicine", "histology", "tissue", "biopsy"
+  ],
+};
+
+function getAreaMatches(q) {
+  const matchedAreas = [];
+  for (const [area, triggers] of Object.entries(AREA_TRIGGERS)) {
+    if (triggers.some(t => {
+      const re = new RegExp(`(^|\\s)${t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(\\s|$)`, 'i');
+      return re.test(q);
+    })) {
+      matchedAreas.push(area.toLowerCase());
     }
   }
-  return [...terms];
+  return matchedAreas;
 }
 
 function wordMatch(fields, term) {
@@ -132,7 +156,8 @@ function applyFilters() {
   const exps  = selectedFilters.exp;
   const insts = selectedFilters.inst;
 
-  const queryTerms = q ? expandQuery(q) : [];
+  // Get areas that the query maps to
+  const triggeredAreas = q ? getAreaMatches(q) : [];
 
   const searchFields = r => [
     r.name, r.group, r.tag, r.area,
@@ -141,8 +166,14 @@ function applyFilters() {
 
   const filtered = researchers.filter(r => {
     const fields = searchFields(r);
+    const matchesSearch = !q || (
+      // Direct match in any field
+      wordMatch(fields, q) ||
+      // OR query maps to researcher's area
+      triggeredAreas.some(a => r.area.toLowerCase().includes(a))
+    );
     return (
-      (!q || queryTerms.some(term => wordMatch(fields, term))) &&
+      matchesSearch &&
       (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
       (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
       (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
