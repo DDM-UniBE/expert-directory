@@ -504,15 +504,15 @@
     "profileUrl": "mailto:rouven.porz@insel.ch"
   },
   {
-    "initials": "RP",
-    "firstName": "Rouven",
-    "photo": "assets/headshots/rouven-porz.png",
-    "name": "Prof. Dr. phil. Rouven Porz",
-    "group": "Medical Ethics Unit",
+    "initials": "JB",
+    "firstName": "johannes",
+    "photo": "assets/headshots/johannes-bastian.jpg",
+    "name": "Prof. Dr. med. Johannes Dominik Bastian",
+    "group": "Department of Orthopaedic Surgery and Traumatology",
     "institute": "Inselspital",
-    "area": "Ethics & Responsible AI",
-    "expertise": "Ethics, Policy & Education",
-    "tag": "Ethics",
-    "profileUrl": "mailto:rouven.porz@insel.ch"
+    "area": "Surgery & Interventional Medicine",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence",
+    "tag": "Orthopaedic Surgery",
+    "profileUrl": "Über uns - Universitätsklinik für Orthopädische Chirurgie und Traumatologie"
   }
 ]
