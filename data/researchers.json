@@ -9,7 +9,8 @@
     "area": "Digital Pathology",
     "expertise": "Pathology & Molecular Medicine",
     "tag": "Digital Pathology",
-    "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/zlobec_inti/index_eng.html"
+    "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/zlobec_inti/index_eng.html",
+    "keywords": "Digital Pathology, Tissue Analysis, Histopathology, AI in Pathology, Spatial Biology"
   },
   {
     "initials": "MR",
@@ -21,7 +22,8 @@
     "area": "Biomedical Engineering & Biomedical Research",
     "expertise": "Biomedical Engineering, AI & Data Science, Medical Imaging",
     "tag": "Biomedical Engineering",
-    "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
+    "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html",
+    "keywords": "Medical Image Analysis, Deep Learning, Image Segmentation, Brain Tumours"
   },
   {
     "initials": "SB",
@@ -33,7 +35,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Specialities",
     "tag": "Radiation Oncology",
-    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk"
+    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk",
+    "keywords": "Clinical Research"
   },
   {
     "initials": "AK",
@@ -45,7 +48,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Specialities, Ethics, Policy & Education",
     "tag": "Radiation Oncology",
-    "profileUrl": "https://www.medizin.unibe.ch/ueber_uns/personen/prof_dr_knopf_antje/index_ger.html"
+    "profileUrl": "https://www.medizin.unibe.ch/ueber_uns/personen/prof_dr_knopf_antje/index_ger.html",
+    "keywords": "Radio-Oncology, Particle Therapy, Proton Therapy, Treatment Planning"
   },
   {
     "initials": "BI",
@@ -57,7 +61,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Medical Data Science",
-    "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html"
+    "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html",
+    "keywords": "Data Science, Clinical Research"
   },
   {
     "initials": "RW",
@@ -69,7 +74,8 @@
     "area": "Neuroscience & Neurology",
     "expertise": "Clinical Specialities",
     "tag": "Neuroradiology",
-    "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest"
+    "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest",
+    "keywords": "Neuroimaging"
   },
   {
     "initials": "MB",
@@ -81,7 +87,8 @@
     "area": "Surgery & Interventional Medicine",
     "expertise": "AI & Data Science, Clinical Research & Evidence",
     "tag": "Cardiac Surgery",
-    "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics"
+    "profileUrl": "https://herzchirurgie.insel.ch/de/ueber-uns/aerzteteam/details/person/detail/maris-bartkevics",
+    "keywords": "Predictive Models, Risk Calculators"
   },
   {
     "initials": "AL",
@@ -93,7 +100,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
     "tag": "Liver Cancer",
-    "profileUrl": "https://bauchzentrum-bern.ch/de/unser-team/details/person/detail/anja-lachenmayer"
+    "profileUrl": "https://bauchzentrum-bern.ch/de/unser-team/details/person/detail/anja-lachenmayer",
+    "keywords": "Data-Driven Surgery, Minimally Invasive Treatments, Alveolar Echinococcosis"
   },
   {
     "initials": "RM",
@@ -105,7 +113,8 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
     "tag": "Neuroimaging",
-    "profileUrl": "mailto:richard.mckinley@insel.ch"
+    "profileUrl": "mailto:richard.mckinley@insel.ch",
+    "keywords": "Neuroimaging, Brain MRI, AI in Radiology, Multiple Sclerosis"
   },
   {
     "initials": "AP",
@@ -117,7 +126,8 @@
     "area": "Genomics & Precision Medicine",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Pathology & Molecular Medicine",
     "tag": "Molecular Biology",
-    "profileUrl": "https://www.pandeylab.org/"
+    "profileUrl": "https://www.pandeylab.org/",
+    "keywords": "Computational Biology, Medicinal Chemistry, Protein Design, Molecular Endocrinology"
   },
   {
     "initials": "PC",
@@ -129,7 +139,8 @@
     "area": "Genomics & Precision Medicine",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Computational Biology",
-    "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/dr_chouvardas_panagiotis/index_eng.html"
+    "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/dr_chouvardas_panagiotis/index_eng.html",
+    "keywords": "Single-cell Omics, Spatial Omics, AI, Precision Oncology"
   },
   {
     "initials": "HG",
@@ -141,7 +152,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics",
     "tag": "AI & Machine Learning",
-    "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html"
+    "profileUrl": "https://www.research-visceralsurgery.ch/en/group-members/prof-dr-deborah-stroka-1-3-10.html",
+    "keywords": "Machine Learning, Predictive Modelling, Causal Discovery, Bioinformatics"
   },
   {
     "initials": "RV",
@@ -153,7 +165,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "AI & Data Science",
-    "profileUrl": "https://rosnikv.github.io/"
+    "profileUrl": "https://rosnikv.github.io/",
+    "keywords": "AI for Discovery, AI for Health"
   },
   {
     "initials": "BZ",
@@ -165,7 +178,8 @@
     "area": "Biomedical Engineering & Biomedical Research",
     "expertise": "AI & Data Science",
     "tag": "Structural Biology",
-    "profileUrl": "https://www.anatomie.unibe.ch/about_us/team/detail/index_eng.php?id=329"
+    "profileUrl": "https://www.anatomie.unibe.ch/about_us/team/detail/index_eng.php?id=329",
+    "keywords": "Neuroscience, Microbiology"
   },
   {
     "initials": "AK",
@@ -177,7 +191,8 @@
     "area": "Digital Pathology",
     "expertise": "AI & Data Science, Biomedical Engineering, Bioinformatics & Omics",
     "tag": "Digital Pathology",
-    "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/khan_amjad/index_eng.html"
+    "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/khan_amjad/index_eng.html",
+    "keywords": "Digital Pathology, Deep Learning, Tissue Classification, Computational Pathology"
   },
   {
     "initials": "DG",
@@ -189,7 +204,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science",
     "tag": "Machine Learning",
-    "profileUrl": "https://ginsbourger.github.io/"
+    "profileUrl": "https://ginsbourger.github.io/",
+    "keywords": "Gaussian Processes, Active Learning, Kernel Methods, Inverse Problems"
   },
   {
     "initials": "DO",
@@ -201,7 +217,8 @@
     "area": "Biomedical Engineering & Biomedical Research",
     "expertise": "AI & Data Science, Biomedical Engineering, Medical Imaging, Digital Health & Health Informatics",
     "tag": "Cardiovascular Engineering",
-    "profileUrl": "https://www.artorg.unibe.ch/research/cve/group_members/staff/prof_dr_obrist_dominik/index_eng.html"
+    "profileUrl": "https://www.artorg.unibe.ch/research/cve/group_members/staff/prof_dr_obrist_dominik/index_eng.html",
+    "keywords": "Biofluids, CFD, Image Segmentation, Predictive Models, Cardiovascular Engineering"
   },
   {
     "initials": "MK",
@@ -213,7 +230,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Urological Oncology",
-    "profileUrl": "mailto:marianna.kruithofdejulio@unibe.ch"
+    "profileUrl": "mailto:marianna.kruithofdejulio@unibe.ch",
+    "keywords": "Bladder Cancer, Prostate Cancer, Pancreatic Cancer"
   },
   {
     "initials": "DS",
@@ -225,9 +243,10 @@
     "area": "Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education",
     "tag": "Patient Safety",
-    "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html"
+    "profileUrl": "https://www.ispm.unibe.ch/about_us/staff/schwappach_david/index_eng.html",
+    "keywords": "Quality of Care"
   },
-{
+  {
     "initials": "AH",
     "firstName": "Ali",
     "photo": "assets/headshots/ali-hashemigheinani.jpg",
@@ -237,7 +256,8 @@
     "area": "Genomics & Precision Medicine",
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Computational Biology",
-    "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html"
+    "profileUrl": "https://www.dbmr.unibe.ch/research/research_programs/hashemi_gheinani_lab/index_eng.html",
+    "keywords": "Bioinformatics, Multi-omics, Functional Urology, Neuro-Urology, Extracellular Vesicles, ML in Biomedicine"
   },
   {
     "initials": "LW",
@@ -249,7 +269,8 @@
     "area": "Biomedical Engineering & Biomedical Research",
     "expertise": "AI & Data Science, Biomedical Engineering, Digital Health & Health Informatics",
     "tag": "Biosensing",
-    "profileUrl": "https://samlab.org"
+    "profileUrl": "https://samlab.org",
+    "keywords": "Nanomaterials, Continuous Metabolic Monitoring, Physiological Signals, Wearables, Biosensing"
   },
   {
     "initials": "SP",
@@ -261,7 +282,8 @@
     "area": "Medical Imaging",
     "expertise": "Medical Imaging, Clinical Research & Evidence",
     "tag": "MRI & Spectroscopy",
-    "profileUrl": "https://www.linkedin.com/in/simone-poli-phd-546128b9/?locale=it_IT"
+    "profileUrl": "https://www.linkedin.com/in/simone-poli-phd-546128b9/?locale=it_IT",
+    "keywords": "Clinical Study, Data Management"
   },
   {
     "initials": "AB",
@@ -273,7 +295,8 @@
     "area": "Genomics & Precision Medicine",
     "expertise": "Bioinformatics & Omics",
     "tag": "Cancer Genomics",
-    "profileUrl": "https://biomedhub.unibe.ch/about_us/members/people/dr_benjak_andrej/index_eng.html"
+    "profileUrl": "https://biomedhub.unibe.ch/about_us/members/people/dr_benjak_andrej/index_eng.html",
+    "keywords": "Precision Oncology"
   },
   {
     "initials": "RN",
@@ -285,7 +308,8 @@
     "area": "Neuroscience & Neurology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine",
     "tag": "Neuroimaging",
-    "profileUrl": "mailto:ruiqing.ni@unibe.ch"
+    "profileUrl": "mailto:ruiqing.ni@unibe.ch",
+    "keywords": "Molecular Imaging, Translational Research"
   },
   {
     "initials": "SG",
@@ -297,7 +321,8 @@
     "area": "Medical Education",
     "expertise": "Clinical Specialities, Ethics, Policy & Education",
     "tag": "Medical Education",
-    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/guttormsen-sissel?department=direktion"
+    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/guttormsen-sissel?department=direktion",
+    "keywords": "Medical Education, Simulation, Clinical Training, Curriculum Development"
   },
   {
     "initials": "OG",
@@ -309,7 +334,8 @@
     "area": "Biomedical Engineering & Biomedical Research",
     "expertise": "Biomedical Engineering",
     "tag": "Organs-on-Chip",
-    "profileUrl": "https://www.artorg.unibe.ch/research/ooc/index_eng.html"
+    "profileUrl": "https://www.artorg.unibe.ch/research/ooc/index_eng.html",
+    "keywords": "Microfluidics, Disease Models, Personalised Medicine"
   },
   {
     "initials": "TM",
@@ -321,7 +347,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Neuro-Oncology",
-    "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html"
+    "profileUrl": "https://www.igmp.unibe.ch/ueber_uns/personen/maragkou_theoni/index_ger.html",
+    "keywords": "Brain Tumours, Medulloblastoma, Glioblastoma, Spatial Profiling"
   },
   {
     "initials": "LH",
@@ -333,7 +360,8 @@
     "area": "Data Science",
     "expertise": "Digital Health & Health Informatics, Ethics, Policy & Education, Clinical Research & Evidence",
     "tag": "Clinical Epidemiology",
-    "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html"
+    "profileUrl": "https://dcr.unibe.ch/about_us/personen_all_dcr_staff/hemkens_lars/index_eng.html",
+    "keywords": "Pragmatic Trials, Routinely Collected Data, Digital Measures, Meta-Research, Evidence-Based Care"
   },
   {
     "initials": "LK",
@@ -345,7 +373,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science, Medical Imaging",
     "tag": "AI & Machine Learning",
-    "profileUrl": "www.mlm-lab.ch"
+    "profileUrl": "www.mlm-lab.ch",
+    "keywords": "Medical Image Analysis, Wearables, Machine Learning"
   },
   {
     "initials": "SH",
@@ -357,7 +386,8 @@
     "area": "Medical Education",
     "expertise": "Ethics, Policy & Education",
     "tag": "AI in Medical Education",
-    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren"
+    "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren",
+    "keywords": "Medical Education, AI"
   },
   {
     "initials": "RH",
@@ -369,7 +399,8 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Patholoy & Molecular Medicine",
     "tag": "Neurology",
-    "profileUrl": "mailto:robert.hoepner@insel.ch"
+    "profileUrl": "mailto:robert.hoepner@insel.ch",
+    "keywords": "Multiple Sclerosis, Neuroimmunology, MS Treatment, Neurology"
   },
   {
     "initials": "HT",
@@ -381,7 +412,8 @@
     "area": "Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence",
     "tag": "Vascular Imaging",
-    "profileUrl": "https://radiologie.insel.ch/de/ueber-uns/details/person/detail/hendrik-von-tengg-kobligk"
+    "profileUrl": "https://radiologie.insel.ch/de/ueber-uns/details/person/detail/hendrik-von-tengg-kobligk",
+    "keywords": "MRI, CT, Photon Counting, Contrast Media, Simulation, AI"
   },
   {
     "initials": "YS",
@@ -393,7 +425,8 @@
     "area": "Medical Imaging, Data Science",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Clinical AI",
-    "profileUrl": "https://yaskhanloo.me"
+    "profileUrl": "https://yaskhanloo.me",
+    "keywords": "Multimodal ML, Medical Imaging, EHR Analytics, Clinical NLP, Decision Support"
   },
   {
     "initials": "FS",
@@ -405,7 +438,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Research & Evidence, Clinical Specialities",
     "tag": "Gynecological Oncology",
-    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler"
+    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/person/detail/franziska-siegenthaler",
+    "keywords": "Personalised Treatment, Molecular Markers, Sentinel Lymph Node Mapping, Surgery"
   },
   {
     "initials": "GS",
@@ -417,7 +451,8 @@
     "area": "Data Science",
     "expertise": "AI & Data Science, Clinical Specialities",
     "tag": "Clinical AI",
-    "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/"
+    "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/",
+    "keywords": "Clinical Decision Support, SGAIM"
   },
   {
     "initials": "MD",
@@ -429,7 +464,8 @@
     "area": "Surgery & Interventional Medicine",
     "expertise": "Clinical Specialities, Clinical Research & Evidence, Ethics, Policy & Education",
     "tag": "Spine Surgery",
-    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml"
+    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/moritz-c-deml",
+    "keywords": "Complex Spinal Disorders, Minimally Invasive Surgery, Navigation Techniques"
   },
   {
     "initials": "SI",
@@ -441,7 +477,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Specialities, Clinical Research & Evidence",
     "tag": "Gynecological Oncology",
-    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/personlist/34/person/detail/sara-imboden"
+    "profileUrl": "https://frauenheilkunde.insel.ch/de/ueber-uns/team/details/personlist/34/person/detail/sara-imboden",
+    "keywords": "Clinical Research"
   },
   {
     "initials": "OE",
@@ -453,7 +490,8 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Radiation Oncology",
-    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/personlist/6/person/detail/olgun-elicin"
+    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/personlist/6/person/detail/olgun-elicin",
+    "keywords": "Head & Neck Oncology, Thoracic Oncology, Clinical Trials, Biomarkers, Treatment De-escalation"
   },
   {
     "initials": "CG",
@@ -465,7 +503,8 @@
     "area": "Cardiovascular Medicine",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Cardiac Imaging",
-    "profileUrl": "https://ai-cvm.org/"
+    "profileUrl": "https://ai-cvm.org/",
+    "keywords": "AI, Digital Twins, 3D Printing, Coronary Artery Anomalies, Cardiac AI"
   },
   {
     "initials": "PL",
@@ -477,7 +516,8 @@
     "area": "Medical Imaging",
     "expertise": "Biomedical Engineering, Clinical Research & Evidence, Clinical Specialities",
     "tag": "Lung Imaging",
-    "profileUrl": "mailto:philipp.latzin@insel.ch"
+    "profileUrl": "mailto:philipp.latzin@insel.ch",
+    "keywords": "Lung Function, Automated Analysis Methods"
   },
   {
     "initials": "DS",
@@ -489,7 +529,8 @@
     "area": "Cancer & Oncology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Head, Neck, Lung Cancer",
-    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/daniel-schanne"
+    "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/daniel-schanne",
+    "keywords": "Head & Neck Cancer, Lung Cancer, Imaging, Translational Science"
   },
   {
     "initials": "RP",
@@ -501,7 +542,8 @@
     "area": "Ethics & Responsible AI",
     "expertise": "Ethics, Policy & Education",
     "tag": "Ethics",
-    "profileUrl": "mailto:rouven.porz@insel.ch"
+    "profileUrl": "mailto:rouven.porz@insel.ch",
+    "keywords": "Responsible AI"
   },
   {
     "initials": "JB",
@@ -513,7 +555,8 @@
     "area": "Surgery & Interventional Medicine",
     "expertise": "Clinical Specialities, Clinical Research & Evidence",
     "tag": "Orthopaedic Surgery",
-    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/johannes-d-bastian"
+    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/johannes-d-bastian",
+    "keywords": ""
   },
   {
     "initials": "FD",
@@ -525,6 +568,7 @@
     "area": "Cancer & Oncology, Data Science",
     "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science, Digital Health & Health Informatics",
     "tag": "AI & Data Science",
-    "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics"
+    "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics",
+    "keywords": ""
   }
 ]

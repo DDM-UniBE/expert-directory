@@ -16,6 +16,7 @@
      area       → research area (used by Research area filter)
      expertise  → expertise (used by Expertise filter)
      tag        → label on the red pill badge
+     keywords   → hidden search terms (e.g. "LLMs, Digital Twins, Bioinformatics")
      profileUrl → URL opened when clicking the card (opens in new tab)
    ═══════════════════════════════════════════════════ */
 
@@ -55,6 +56,7 @@ function applyFilters() {
        r.tag.toLowerCase().includes(q) ||
        r.area.toLowerCase().includes(q) ||
        r.expertise.toLowerCase().includes(q) ||
+       (r.keywords || '').toLowerCase().includes(q) ||
        r.institute.toLowerCase().includes(q)) &&
     (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
     (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
