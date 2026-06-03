@@ -96,7 +96,7 @@ const AREA_TRIGGERS = {
   ],
   "Surgery & Interventional Medicine": [
     "surgery", "surgical", "interventional", "minimally invasive",
-    "spine surgery", "cardiac surgery", "laparoscopic", "navigation"
+   "laparoscopic", "navigation"
   ],
 };
 
