@@ -23,7 +23,7 @@
     "expertise": "Biomedical Engineering, AI & Data Science, Medical Imaging",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html",
-    "keywords": "Medical Image Analysis, Deep Learning, Image Segmentation, Brain Tumours"
+    "keywords": "Medical Image Analysis, Deep Learning, Image Segmentation, AI, Cancer, Imaging"
   },
   {
     "initials": "SB",
@@ -36,7 +36,7 @@
     "expertise": "Clinical Specialities",
     "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk",
-    "keywords": "Clinical Research"
+    "keywords": "AI in Radiation Oncology, Mathematical Modelling, Machine Learning, Omics, Multimodal Data, Imaging, Oncology, Pediatric, Digital Health"
   },
   {
     "initials": "AK",
@@ -387,7 +387,7 @@
     "expertise": "Ethics, Policy & Education",
     "tag": "AI in Medical Education",
     "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren",
-    "keywords": "Medical Education, AI"
+    "keywords": "Medical Education, AI, LLMs, Large Language Models, Local LLM"
   },
   {
     "initials": "RH",
@@ -452,7 +452,7 @@
     "expertise": "AI & Data Science, Clinical Specialities",
     "tag": "Clinical AI",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/",
-    "keywords": "Clinical Decision Support, SGAIM"
+    "keywords": "Clinical Decision Support, LLMs, Large Language Models, Natural Language Processing, NLP, AI"
   },
   {
     "initials": "MD",

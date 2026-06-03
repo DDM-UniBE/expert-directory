@@ -42,47 +42,84 @@ fetch('data/researchers.json')
 /* ── Multi-select state ── */
 const selectedFilters = { area: new Set(), exp: new Set(), inst: new Set() };
 
-/* ── Synonym groups — expand search terms ── */
+/* ── Synonym groups — tied strictly to research areas & expertise ── */
 const SYNONYMS = {
-  "cancer":               "oncology, tumour, tumor, neoplasm, carcinoma, malignancy",
-  "tumor":                "cancer, oncology, tumour, neoplasm, carcinoma, malignancy",
-  "tumour":               "cancer, oncology, tumor, neoplasm, carcinoma, malignancy",
-  "oncology":             "cancer, tumor, tumour, neoplasm, carcinoma, malignancy",
-  "ai":                   "artificial intelligence, machine learning, deep learning, neural network",
-  "artificial intelligence": "ai, machine learning, deep learning, neural network",
-  "machine learning":     "ai, artificial intelligence, deep learning, neural network",
-  "deep learning":        "ai, artificial intelligence, machine learning, neural network",
-  "brain":                "neuro, neural, neuroimaging, neuroscience, cerebral, neurology",
-  "neuro":                "brain, neural, neuroimaging, neuroscience, neurology",
-  "neuroscience":         "brain, neuro, neuroimaging, neurology",
-  "llm":                  "large language model, large language models, llms, nlp, natural language processing",
-  "llms":                 "large language model, large language models, llm, nlp, natural language processing",
-  "large language model": "llm, llms, large language models, nlp, natural language processing, ai",
-  "large language models":"llm, llms, large language model, nlp, natural language processing, ai",
-  "nlp":                  "natural language processing, llm, llms, text mining",
-  "twin":                 "digital twin, digital twins, digital twinning",
-  "digital twin":         "twin, digital twins, digital twinning, simulation",
-  "digital twins":        "twin, digital twin, digital twinning, simulation",
-  "heart":                "cardiac, cardiovascular, cardiology",
-  "cardiac":              "heart, cardiovascular, cardiology",
-  "cardiovascular":       "heart, cardiac, cardiology",
-  "wearable":             "wearables, biosensing, monitoring, sensor",
-  "wearables":            "wearable, biosensing, monitoring, sensor",
-  "biosensing":           "wearable, wearables, sensor, monitoring",
+  // ── Cancer & Oncology ──
+  "cancer":          "oncology, tumour, tumor, neoplasm, carcinoma, malignancy, cancer & oncology",
+  "oncology":        "cancer, tumour, tumor, neoplasm, carcinoma, cancer & oncology",
+  "tumor":           "cancer, oncology, tumour, neoplasm, carcinoma",
+  "tumour":          "cancer, oncology, tumor, neoplasm, carcinoma",
+
+  // ── Artificial Intelligence & Data Science ──
+  "artificial intelligence": "machine learning, deep learning, data science, ai & data science",
+  "machine learning":        "artificial intelligence, deep learning, data science, ai & data science",
+  "deep learning":           "artificial intelligence, machine learning, neural network",
+  "data science":            "artificial intelligence, machine learning, statistics, analytics",
+
+  // ── LLMs — very specific, only expands within NLP family ──
+  "llm":                  "llms, large language model, large language models, natural language processing, nlp",
+  "llms":                 "llm, large language model, large language models, natural language processing, nlp",
+  "large language model": "llm, llms, large language models, natural language processing, nlp",
+  "large language models":"llm, llms, large language model, natural language processing, nlp",
+  "nlp":                  "natural language processing, llm, llms, large language model",
+  "natural language processing": "nlp, llm, llms, large language model",
+
+  // ── Cardiovascular Medicine ──
+  "heart":           "cardiac, cardiovascular, cardiology, cardiovascular medicine",
+  "cardiac":         "heart, cardiovascular, cardiology, cardiovascular medicine",
+  "cardiovascular":  "heart, cardiac, cardiology, cardiovascular medicine",
+  "cardiology":      "heart, cardiac, cardiovascular, cardiovascular medicine",
+
+  // ── Neuroscience & Neurology ──
+  "brain":           "neuroscience, neurology, neuroimaging, neuroradiology, neuroscience & neurology",
+  "neuroscience":    "brain, neurology, neuroimaging, neuroradiology, neuroscience & neurology",
+  "neurology":       "brain, neuroscience, neuroimaging, neuroradiology, neuroscience & neurology",
+  "neuroimaging":    "brain, neuroscience, neurology, neuroradiology",
+  "neuroradiology":  "brain, neuroscience, neurology, neuroimaging",
+
+  // ── Medical Imaging ──
+  "imaging":         "medical imaging, radiology, mri, ct scan",
+  "radiology":       "medical imaging, imaging, mri, ct scan",
+  "mri":             "medical imaging, imaging, radiology, magnetic resonance",
+  "magnetic resonance": "mri, imaging, medical imaging",
+
+  // ── Genomics & Precision Medicine ──
+  "genomics":        "precision medicine, omics, bioinformatics, genetics, genomics & precision medicine",
+  "precision medicine": "genomics, personalised medicine, personalized medicine, biomarker, genomics & precision medicine",
+  "omics":           "genomics, proteomics, transcriptomics, metabolomics, multi-omics, bioinformatics",
+  "bioinformatics":  "genomics, omics, computational biology, data science",
+
+  // ── Biomedical Engineering & Biomedical Research ──
+  "biomedical engineering": "biomedical research, bioengineering, biomedical engineering & biomedical research",
+  "biomedical research":    "biomedical engineering, biomedical engineering & biomedical research",
+
+  // ── Surgery & Interventional Medicine ──
+  "surgery":         "surgical, interventional, minimally invasive, surgery & interventional medicine",
+  "surgical":        "surgery, interventional, minimally invasive",
+
+  // ── Wearables / Biosensing ──
+  "wearable":        "wearables, biosensing, sensor, continuous monitoring",
+  "wearables":       "wearable, biosensing, sensor, continuous monitoring",
+  "biosensing":      "wearable, wearables, sensor",
+
+  // ── Digital Twin — specific ──
+  "digital twin":    "digital twins, digital twinning, simulation",
+  "digital twins":   "digital twin, digital twinning, simulation",
 };
 
 function expandQuery(q) {
   const terms = new Set([q]);
   for (const [key, synonymStr] of Object.entries(SYNONYMS)) {
-    if (q === key || q.startsWith(key + ' ') || q.endsWith(' ' + key) || q.includes(' ' + key + ' ')) {
-      synonymStr.split(',').forEach(s => terms.add(s.trim()));
+    // Only match if query exactly equals key or key appears as whole word in query
+    const re = new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(\\s|$)`, 'i');
+    if (re.test(q)) {
+      synonymStr.split(',').forEach(s => terms.add(s.trim().toLowerCase()));
     }
   }
   return [...terms];
 }
 
 function wordMatch(fields, term) {
-  // Use word boundary matching to avoid "uro" matching inside "neuro"
   const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const regex = new RegExp(`(^|[\\s,;&/\\-])${escaped}([\\s,;&/\\-]|$)`, 'i');
   return regex.test(fields);
