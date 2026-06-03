@@ -518,12 +518,12 @@
   {
     "initials": "FD",
     "firstName": "Fabio",
-    "photo": "assets/headshots/johannes-bastian.jpg",
-    "name": "Prof. Dr. med. Johannes Dominik Bastian",
-    "group": "Department of Orthopaedic Surgery and Traumatology",
+    "photo": "assets/headshots/fabio-dennstadt.jpg",
+    "name": "Dr. med. Fabio Dennstädt",
+    "group": "Center for AI in Radiation Oncology, UKRO ",
     "institute": "Inselspital",
-    "area": "Surgery & Interventional Medicine",
-    "expertise": "Clinical Specialities, Clinical Research & Evidence",
+    "area": "Cancer & Oncology, Data Science",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science, Digital Health & Health Informatics",
     "tag": "Orthopaedic Surgery",
     "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics"
   }
