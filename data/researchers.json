@@ -19,7 +19,7 @@
     "group": "Medical Image Analysis Group, ARTORG",
     "institute": "University of Bern",
     "area": "Biomedical Engineering & Biomedical Research",
-    "expertise": "Biomedical Engineering",
+    "expertise": "Biomedical Engineering, AI & Data Science, Medical Imaging",
     "tag": "Biomedical Engineering",
     "profileUrl": "https://www.artorg.unibe.ch/research/mia/group_members/members/prof_dr_reyes_mauricio/index_eng.html"
   },
@@ -490,6 +490,18 @@
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Bioinformatics & Omics, Clinical Research & Evidence",
     "tag": "Head, Neck, Lung Cancer",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/daniel-schanne"
+  },
+  {
+    "initials": "RP",
+    "firstName": "Rouven",
+    "photo": "assets/headshots/rouven-porz.png",
+    "name": "Prof. Dr. phil. Rouven Porz",
+    "group": "Medical Ethics Unit",
+    "institute": "Inselspital",
+    "area": "Ethics & Responsible AI",
+    "expertise": "Ethics, Policy & Education",
+    "tag": "Ethics",
+    "profileUrl": "mailto:rouven.porz@insel.ch"
   },
   {
     "initials": "RP",
