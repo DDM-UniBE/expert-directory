@@ -105,6 +105,13 @@ function expandQuery(q) {
   return [...terms];
 }
 
+function wordMatch(fields, term) {
+  // Use word boundary matching to avoid "uro" matching inside "neuro"
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(^|[\\s,;&/\\-])${escaped}([\\s,;&/\\-]|$)`, 'i');
+  return regex.test(fields);
+}
+
 /* ── Filter logic ── */
 function applyFilters() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
@@ -117,12 +124,12 @@ function applyFilters() {
   const searchFields = r => [
     r.name, r.group, r.tag, r.area,
     r.expertise, r.keywords || '', r.institute
-  ].join(' ').toLowerCase();
+  ].join(' , ').toLowerCase();
 
   const filtered = researchers.filter(r => {
     const fields = searchFields(r);
     return (
-      (!q || queryTerms.some(term => fields.includes(term))) &&
+      (!q || queryTerms.some(term => wordMatch(fields, term))) &&
       (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
       (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
       (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
