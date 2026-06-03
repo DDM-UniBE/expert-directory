@@ -231,7 +231,7 @@
     "expertise": "Clinical Research & Evidence",
     "tag": "Urological Oncology",
     "profileUrl": "mailto:marianna.kruithofdejulio@unibe.ch",
-    "keywords": "Bladder Cancer, Prostate Cancer, Pancreatic Cancer"
+    "keywords": "Bladder Cancer, Prostate Cancer, Pancreatic Cancer, Preclinical"
   },
   {
     "initials": "DS",
@@ -374,7 +374,7 @@
     "expertise": "AI & Data Science, Medical Imaging",
     "tag": "AI & Machine Learning",
     "profileUrl": "www.mlm-lab.ch",
-    "keywords": "Medical Image Analysis, Wearables, Machine Learning, LLMs, Large Language Models"
+    "keywords": "Medical Image Analysis, Wearables, Machine Learning, Trustworthy AI"
   },
   {
     "initials": "SH",
@@ -426,7 +426,7 @@
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Clinical AI",
     "profileUrl": "https://yaskhanloo.me",
-    "keywords": "Multimodal ML, Medical Imaging, EHR Analytics, Clinical NLP, Decision Support, LLMs, Large Language Models"
+    "keywords": "Multimodal ML, Medical Imaging, EHR Analytics, Clinical NLP, Decision Support"
   },
   {
     "initials": "FS",
@@ -452,7 +452,7 @@
     "expertise": "AI & Data Science, Clinical Specialities",
     "tag": "Clinical AI",
     "profileUrl": "https://www.linkedin.com/in/guillaume-speierer/",
-    "keywords": "Clinical Decision Support, LLMs, Large Language Models, Natural Language Processing, NLP, AI"
+    "keywords": "Clinical Decision Support"
   },
   {
     "initials": "MD",
@@ -569,6 +569,6 @@
     "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science, Digital Health & Health Informatics",
     "tag": "AI & Data Science",
     "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics",
-    "keywords": "LLMs, Large Language Models"
+    "keywords": "LLMs, Large Language Models, Data Modelling, Data Structuring, Oncology, Natural Language Processing"
   }
 ]
