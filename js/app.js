@@ -16,7 +16,6 @@
      area       → research area (used by Research area filter)
      expertise  → expertise (used by Expertise filter)
      tag        → label on the red pill badge
-     keywords   → hidden search terms (e.g. "LLMs, Digital Twins, Bioinformatics")
      profileUrl → URL opened when clicking the card (opens in new tab)
    ═══════════════════════════════════════════════════ */
 
@@ -43,6 +42,69 @@ fetch('data/researchers.json')
 /* ── Multi-select state ── */
 const selectedFilters = { area: new Set(), exp: new Set(), inst: new Set() };
 
+/* ── Synonym groups — expand search terms ── */
+const SYNONYMS = {
+  "cancer":              "oncology, tumour, tumor, neoplasm, carcinoma, malignancy",
+  "oncology":            "cancer, tumour, tumor, neoplasm, carcinoma, malignancy",
+  "tumour":              "cancer, oncology, tumor, neoplasm",
+  "tumor":               "cancer, oncology, tumour, neoplasm",
+  "ai":                  "artificial intelligence, machine learning, deep learning, neural network",
+  "artificial intelligence": "ai, machine learning, deep learning",
+  "machine learning":    "ai, artificial intelligence, deep learning, neural network, ml",
+  "ml":                  "machine learning, ai, artificial intelligence",
+  "mri":                 "magnetic resonance, neuroimaging, brain imaging, imaging",
+  "magnetic resonance":  "mri, imaging, neuroimaging",
+  "omics":               "genomics, proteomics, transcriptomics, metabolomics, multi-omics, epigenetics",
+  "genomics":            "omics, genome, sequencing, genetics, dna",
+  "imaging":             "mri, ct, radiology, medical imaging, scan",
+  "radiology":           "imaging, mri, ct, x-ray, scan, radiologist",
+  "surgery":             "surgical, operation, interventional, minimally invasive",
+  "surgical":            "surgery, operation, interventional",
+  "brain":               "neuro, neural, neuroimaging, neuroscience, cerebral",
+  "neuro":               "brain, neural, neuroimaging, neuroscience, neurology",
+  "heart":               "cardiac, cardiovascular, cardiology",
+  "cardiac":             "heart, cardiovascular, cardiology",
+  "cardiovascular":      "heart, cardiac, cardiology, vascular",
+  "diabetes":            "glucose, insulin, metabolic, endocrinology",
+  "pathology":           "histology, tissue, biopsy, digital pathology",
+  "drug":                "therapeutics, treatment, pharmacology, medication",
+  "treatment":           "therapeutics, drug, therapy, intervention",
+  "data":                "data science, statistics, analytics, bioinformatics",
+  "statistics":          "data science, biostatistics, epidemiology, analysis",
+  "epidemiology":        "population health, public health, clinical research, statistics",
+  "llm":                 "large language model, llms, nlp, natural language processing, gpt",
+  "llms":                "large language model, llm, nlp, natural language processing",
+  "large language model":"llm, llms, nlp, natural language processing, ai",
+  "nlp":                 "natural language processing, llm, text mining, clinical nlp",
+  "wearable":            "wearables, sensor, biosensing, monitoring, digital biomarker",
+  "wearables":           "wearable, sensor, biosensing, monitoring",
+  "lung":                "pulmonary, respiratory, airway, spirometry",
+  "kidney":              "renal, nephrology",
+  "liver":               "hepatic, hepatology, visceral",
+  "prostate":            "urology, urological, bladder",
+  "urology":             "prostate, bladder, urological, kidney",
+  "spine":               "spinal, vertebral, back, scoliosis",
+  "digital twin":        "digital twins, simulation, modelling, computational model",
+  "digital twins":       "digital twin, simulation, modelling, 3d printing",
+  "ethics":              "responsible ai, ai ethics, fairness, bias, governance",
+  "responsible ai":      "ethics, ai ethics, fairness, explainability",
+  "education":           "medical education, teaching, learning, curriculum",
+  "precision medicine":  "personalised medicine, personalized medicine, genomics, biomarker",
+  "personalised medicine":"precision medicine, personalized medicine, targeted therapy",
+  "bioinformatics":      "computational biology, genomics, omics, data science",
+  "computational biology":"bioinformatics, genomics, systems biology",
+};
+
+function expandQuery(q) {
+  const terms = new Set([q]);
+  for (const [key, synonymStr] of Object.entries(SYNONYMS)) {
+    if (q.includes(key)) {
+      synonymStr.split(',').forEach(s => terms.add(s.trim()));
+    }
+  }
+  return [...terms];
+}
+
 /* ── Filter logic ── */
 function applyFilters() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
@@ -50,18 +112,22 @@ function applyFilters() {
   const exps  = selectedFilters.exp;
   const insts = selectedFilters.inst;
 
-  const filtered = researchers.filter(r =>
-    (!q || r.name.toLowerCase().includes(q) ||
-       r.group.toLowerCase().includes(q) ||
-       r.tag.toLowerCase().includes(q) ||
-       r.area.toLowerCase().includes(q) ||
-       r.expertise.toLowerCase().includes(q) ||
-       (r.keywords || '').toLowerCase().includes(q) ||
-       r.institute.toLowerCase().includes(q)) &&
-    (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
-    (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
-    (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
-  );
+  const queryTerms = q ? expandQuery(q) : [];
+
+  const searchFields = r => [
+    r.name, r.group, r.tag, r.area,
+    r.expertise, r.keywords || '', r.institute
+  ].join(' ').toLowerCase();
+
+  const filtered = researchers.filter(r => {
+    const fields = searchFields(r);
+    return (
+      (!q || queryTerms.some(term => fields.includes(term))) &&
+      (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
+      (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
+      (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
+    );
+  });
   renderGrid(filtered);
 }
 
