@@ -130,20 +130,34 @@ const EXPERTISE_TRIGGERS = {
   ],
 };
 
+/* ── Area aliases — maps researcher area values to AREA_TRIGGERS keys ── */
+const AREA_ALIASES = {
+  "data science":                        "Artificial Intelligence & Data Science",
+  "artificial intelligence & data science": "Artificial Intelligence & Data Science",
+  "cancer & oncology":                   "Cancer & Oncology",
+  "cardiovascular medicine":             "Cardiovascular Medicine",
+  "biomedical engineering & biomedical research": "Biomedical Engineering & Biomedical Research",
+  "genomics & precision medicine":       "Genomics & Precision Medicine",
+  "neuroscience & neurology":            "Neuroscience & Neurology",
+  "surgery & interventional medicine":   "Surgery & Interventional Medicine",
+  "medical imaging":                     "Medical Imaging",
+  "medical education":                   "Medical Education",
+  "digital pathology":                   "Digital Pathology",
+  "ethics & responsible ai":             "Ethics & Responsible AI",
+  "clinical research & epidemiology":    "Clinical Research & Epidemiology",
+};
+
 function getAreaMatches(q) {
-  const matchedAreas = [];
+  const matchedAreaKeys = new Set();
   for (const [area, triggers] of Object.entries(AREA_TRIGGERS)) {
     if (triggers.some(t => {
       const re = new RegExp(`(^|\\s)${t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(\\s|$)`, 'i');
       return re.test(q);
     })) {
-      // Push both the full area name and key fragments so partial area matches work
-      matchedAreas.push(area.toLowerCase());
-      // Also push each word of the area so "Data Science" matches "Artificial Intelligence & Data Science"
-      area.toLowerCase().split(/[\s&,]+/).filter(w => w.length > 3).forEach(w => matchedAreas.push(w));
+      matchedAreaKeys.add(area.toLowerCase());
     }
   }
-  return [...new Set(matchedAreas)];
+  return [...matchedAreaKeys];
 }
 
 function wordMatch(fields, term) {
@@ -169,11 +183,11 @@ function applyFilters() {
 
   const filtered = researchers.filter(r => {
     const fields = searchFields(r);
+    // Resolve researcher's area(s) to canonical trigger keys via aliases
+    const researcherAreaKey = (AREA_ALIASES[r.area.toLowerCase()] || r.area).toLowerCase();
     const matchesSearch = !q || (
-      // Direct match in any field
       wordMatch(fields, q) ||
-      // OR query maps to researcher's area
-      triggeredAreas.some(a => r.area.toLowerCase().includes(a))
+      triggeredAreas.some(a => researcherAreaKey.includes(a) || r.area.toLowerCase().includes(a))
     );
     return (
       matchesSearch &&
