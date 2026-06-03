@@ -505,7 +505,7 @@
   },
   {
     "initials": "JB",
-    "firstName": "johannes",
+    "firstName": "Johannes",
     "photo": "assets/headshots/johannes-bastian.jpg",
     "name": "Prof. Dr. med. Johannes Dominik Bastian",
     "group": "Department of Orthopaedic Surgery and Traumatology",
@@ -513,6 +513,18 @@
     "area": "Surgery & Interventional Medicine",
     "expertise": "Clinical Specialities, Clinical Research & Evidence",
     "tag": "Orthopaedic Surgery",
-    "profileUrl": "Über uns - Universitätsklinik für Orthopädische Chirurgie und Traumatologie"
+    "profileUrl": "https://orthopaedie.insel.ch/de/ueber-uns/details/person/detail/johannes-d-bastian"
+  },
+  {
+    "initials": "FD",
+    "firstName": "Fabio",
+    "photo": "assets/headshots/johannes-bastian.jpg",
+    "name": "Prof. Dr. med. Johannes Dominik Bastian",
+    "group": "Department of Orthopaedic Surgery and Traumatology",
+    "institute": "Inselspital",
+    "area": "Surgery & Interventional Medicine",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence",
+    "tag": "Orthopaedic Surgery",
+    "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics"
   }
 ]
