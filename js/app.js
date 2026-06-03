@@ -52,13 +52,17 @@ const SYNONYMS = {
   "artificial intelligence": "ai, machine learning, deep learning, neural network",
   "machine learning":     "ai, artificial intelligence, deep learning, neural network",
   "deep learning":        "ai, artificial intelligence, machine learning, neural network",
-  "brain":                "neuroimaging, neuroscience, cerebral, neurology",
-  "neuro":                "neuroimaging, neuroscience, neurology",
+  "brain":                "neuro, neural, neuroimaging, neuroscience, cerebral, neurology",
+  "neuro":                "brain, neural, neuroimaging, neuroscience, neurology",
   "neuroscience":         "brain, neuro, neuroimaging, neurology",
-  "llm":                  "large language model, llms, nlp, natural language processing",
-  "llms":                 "large language model, llm, nlp, natural language processing",
-  "large language model": "llm, llms, nlp, natural language processing, ai",
+  "llm":                  "large language model, large language models, llms, nlp, natural language processing",
+  "llms":                 "large language model, large language models, llm, nlp, natural language processing",
+  "large language model": "llm, llms, large language models, nlp, natural language processing, ai",
+  "large language models":"llm, llms, large language model, nlp, natural language processing, ai",
   "nlp":                  "natural language processing, llm, llms, text mining",
+  "twin":                 "digital twin, digital twins, digital twinning",
+  "digital twin":         "twin, digital twins, digital twinning, simulation",
+  "digital twins":        "twin, digital twin, digital twinning, simulation",
   "heart":                "cardiac, cardiovascular, cardiology",
   "cardiac":              "heart, cardiovascular, cardiology",
   "cardiovascular":       "heart, cardiac, cardiology",
@@ -70,7 +74,7 @@ const SYNONYMS = {
 function expandQuery(q) {
   const terms = new Set([q]);
   for (const [key, synonymStr] of Object.entries(SYNONYMS)) {
-    if (q.includes(key)) {
+    if (q === key || q.startsWith(key + ' ') || q.endsWith(' ' + key) || q.includes(' ' + key + ' ')) {
       synonymStr.split(',').forEach(s => terms.add(s.trim()));
     }
   }
