@@ -161,8 +161,11 @@ function getAreaMatches(q) {
 }
 
 function wordMatch(fields, term) {
+  // Prefix matching: term must appear at the START of a word.
+  // So "chri" matches "christoph", "pedia" matches "pediatrics",
+  // but "uro" will NOT match "neuro" (not at a word boundary).
   const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const regex = new RegExp(`(^|[\\s,;&/\\-])${escaped}([\\s,;&/\\-]|$)`, 'i');
+  const regex = new RegExp(`(^|[\\s,;&/\\-])${escaped}`, 'i');
   return regex.test(fields);
 }
 
