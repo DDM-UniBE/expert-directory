@@ -500,7 +500,7 @@
     "name": "Prof. Dr. Dr. med. Christoph Gräni",
     "group": "Department of Cardiology",
     "institute": "Inselspital · University of Bern",
-    "area": "Cardiovascular Medicine",
+    "area": "Cardiovascular Medicine, Medical Imaging",
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Cardiac Imaging",
     "profileUrl": "https://ai-cvm.org/",
@@ -563,12 +563,25 @@
     "firstName": "Fabio",
     "photo": "assets/headshots/fabio-dennstadt.jpg",
     "name": "Dr. med. Fabio Dennstädt",
-    "group": "Center for AI in Radiation Oncology, UKRO ",
+    "group": "Center for AI in Radiation Oncology, UKRO",
     "institute": "Inselspital",
     "area": "Cancer & Oncology, Data Science",
     "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science, Digital Health & Health Informatics",
     "tag": "AI & Data Science",
     "profileUrl": "https://radioonkologie.insel.ch/de/cairo/cairo-taskforces/data-semantics",
     "keywords": "Data Modelling, Data Structuring, Oncology, Natural Language Processing"
+  },
+  {
+    "initials": "CS",
+    "firstName": "Christiane",
+    "photo": "assets/headshots/Christiane-Sokollik.jpg",
+    "name": "PD Dr. med. Christine Sokollik",
+    "group": "Department of Pediatrics, Division of Pediatric Gastroenterology, Hepatology and Nutrition, University Children's Hospital Bern",
+    "institute": "Inselspital",
+    "area": "Genomics & Precision Medicine",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence, Digital Health & Health Informatics",
+    "tag": "Paediatric Gastroenterology",
+    "profileUrl": "https://kinderklinik.insel.ch/de/unser-angebot/details/personlist/279/person/detail/christiane-sokollik",
+    "keywords": "Paediatrics, Inflammatory Bowel Disease, Crohn's Disease, Nutrition, Gut Microbiome, Digestive Diseases, Hepatology"
   }
 ]
