@@ -1038,5 +1038,12 @@ body {
     justify-content: flex-start !important;
   }
   .mobile-submenu-current:hover { background: rgba(255,255,255,0.08); }
+
+  /* Level 2 links (Research Programs, Collaborate, Funding Programs) — normal case */
+  #mobileMenuLevel2 > a {
+    text-transform: none;
+    letter-spacing: 0.01em;
+    font-size: 15px;
+  }
 }
 
