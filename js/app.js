@@ -403,15 +403,30 @@ if (breadcrumbToggle && breadcrumbPanel) {
   });
 }
 
-/* ── Mobile slide-up menu ── */
+/* ── Mobile slide-up menu (two-level) ── */
 const mobileMenuBtn     = document.getElementById('mobileMenuBtn');
 const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
 const mobileMenuClose   = document.getElementById('mobileMenuClose');
+const mobileMenuLevel1  = document.getElementById('mobileMenuLevel1');
+const mobileMenuLevel2  = document.getElementById('mobileMenuLevel2');
+const researchToggle    = document.getElementById('researchMenuToggle');
+const researchBack      = document.getElementById('researchMenuBack');
+
+function showLevel2() {
+  if (mobileMenuLevel1) mobileMenuLevel1.style.display = 'none';
+  if (mobileMenuLevel2) mobileMenuLevel2.style.display = 'block';
+}
+function showLevel1() {
+  if (mobileMenuLevel1) mobileMenuLevel1.style.display = 'block';
+  if (mobileMenuLevel2) mobileMenuLevel2.style.display = 'none';
+}
 
 function openMobileMenu() {
   mobileMenuOverlay.classList.add('open');
   mobileMenuOverlay.setAttribute('aria-hidden', false);
   document.body.style.overflow = 'hidden';
+  // The directory lives under Research → Collaborate, so open straight to the Research submenu
+  showLevel2();
 }
 function closeMobileMenu() {
   mobileMenuOverlay.classList.remove('open');
@@ -422,9 +437,24 @@ function closeMobileMenu() {
 if (mobileMenuBtn)   mobileMenuBtn.addEventListener('click', openMobileMenu);
 if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMobileMenu);
 
-// Close when a nav link is tapped
+// Research toggle → show submenu (level 2)
+if (researchToggle) {
+  researchToggle.addEventListener('click', e => {
+    e.preventDefault();
+    showLevel2();
+  });
+}
+// Back link → return to main menu (level 1)
+if (researchBack) {
+  researchBack.addEventListener('click', e => {
+    e.preventDefault();
+    showLevel1();
+  });
+}
+
+// Close when an actual link (with real href) is tapped
 if (mobileMenuOverlay) {
-  mobileMenuOverlay.querySelectorAll('a').forEach(link => {
+  mobileMenuOverlay.querySelectorAll('a[href]:not([href="#"])').forEach(link => {
     link.addEventListener('click', closeMobileMenu);
   });
 }

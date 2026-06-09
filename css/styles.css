@@ -996,5 +996,37 @@ body {
     justify-content: flex-start;
   }
   .mobile-menu-overlay .home-link svg { width: 18px; height: 18px; opacity: 0.8; }
+
+  /* Two-level menu */
+  #mobileMenuLevel2 { display: none; }
+
+  .mobile-submenu-back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 13px 20px;
+    background: rgba(0,0,0,0.18);
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .mobile-submenu-back:hover { background: rgba(0,0,0,0.28); }
+  .mobile-submenu-back .arrow-left { font-size: 18px; line-height: 1; }
+
+  .mobile-submenu-title {
+    padding: 16px 20px 10px;
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
 }
 
