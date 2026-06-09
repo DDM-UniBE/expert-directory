@@ -195,7 +195,7 @@ function applyFilters() {
     return (
       matchesSearch &&
       (areas.size === 0 || [...areas].some(a => r.area.toLowerCase().includes(a.toLowerCase()))) &&
-      (exps.size  === 0 || [...exps].some(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
+      (exps.size  === 0 || [...exps].every(e => r.expertise.toLowerCase().includes(e.toLowerCase()))) &&
       (insts.size === 0 || [...insts].some(i => r.institute.toLowerCase().includes(i.toLowerCase())))
     );
   });
