@@ -437,13 +437,6 @@ function closeMobileMenu() {
 if (mobileMenuBtn)   mobileMenuBtn.addEventListener('click', openMobileMenu);
 if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMobileMenu);
 
-// Research toggle → show submenu (level 2)
-if (researchToggle) {
-  researchToggle.addEventListener('click', e => {
-    e.preventDefault();
-    showLevel2();
-  });
-}
 // Back link → return to main menu (level 1)
 if (researchBack) {
   researchBack.addEventListener('click', e => {
