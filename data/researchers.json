@@ -583,5 +583,18 @@
     "tag": "Paediatric Gastroenterology",
     "profileUrl": "https://kinderklinik.insel.ch/de/unser-angebot/details/personlist/279/person/detail/christiane-sokollik",
     "keywords": "Paediatrics, Inflammatory Bowel Disease, Crohn's Disease, Nutrition, Gut Microbiome, Digestive Diseases, Hepatology"
+  },
+  {
+    "initials": "OE",
+    "firstName": "Olga",
+    "photo": "assets/headshots/Olga-Endrich.jpg",
+    "name": "Dr. med, MSc Olga Endrich",
+    "group": "Department Health Information Management, Medical Directorate",
+    "institute": "Inselspital",
+    "area": "Data Science",
+    "expertise": "AI & Data Science, Bioinformatics & Omics, Digital Health & Health Informatics, Biomedical Engineering, Ethics, Policy & Education, Clinical Research & Evidence",
+    "tag": "Health Data",
+    "profileUrl": "https://www.researchgate.net/profile/Olga-Endrich-2",
+    "keywords": "PHealth Data, Semantics, Oncology, Data Science, Medical Decision Support"
   }
 ]
