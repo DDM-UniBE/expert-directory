@@ -1,0 +1,9 @@
+# Font files — commercial licence, do not distribute
+assets/fonts/*.woff
+assets/fonts/*.woff2
+assets/fonts/*.ttf
+assets/fonts/*.otf
+
+# OS files
+.DS_Store
+Thumbs.db
