@@ -7,7 +7,7 @@
     "group": "Institute for Tissue Medicine and Pathology",
     "institute": "University of Bern",
     "area": "Digital Pathology",
-    "expertise": "Pathology & Molecular Medicine",
+    "expertise": "Pathology & Molecular Medicine, AI & Data Science, Digital Health & Health Informatics",
     "tag": "Digital Pathology",
     "profileUrl": "https://www.igmp.unibe.ch/about_us/personen/zlobec_inti/index_eng.html",
     "keywords": "Digital Pathology, Tissue Analysis, Histopathology, AI in Pathology, Spatial Biology"
@@ -33,7 +33,7 @@
     "group": "Center of AI in Radiation Oncology, UKRO",
     "institute": "University of Bern · Inselspital",
     "area": "Cancer & Oncology",
-    "expertise": "Clinical Specialities",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science",
     "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk",
     "keywords": "AI in Radiation Oncology, Mathematical Modelling, Machine Learning, Omics, Multimodal Data, Imaging, Oncology, Pediatric, Digital Health"
@@ -72,7 +72,7 @@
     "group": "Institute for Diagnostic and Interventional Neuroradiology",
     "institute": "University of Bern · Inselspital",
     "area": "Neuroscience & Neurology",
-    "expertise": "Clinical Specialities",
+    "expertise": "Clinical Specialities, Clinical Research & Evidence",
     "tag": "Neuroradiology",
     "profileUrl": "https://neurorad.insel.ch/de/ueber-uns/details/person/detail/roland-wiest",
     "keywords": "Neuroimaging"
@@ -596,5 +596,31 @@
     "tag": "Health Data",
     "profileUrl": "https://www.researchgate.net/profile/Olga-Endrich-2",
     "keywords": "PHealth Data, Semantics, Oncology, Data Science, Medical Decision Support, Terminologies, Semantics, Knowledge Representation "
+  },
+  {
+    "initials": "MM",
+    "firstName": "Matúš",
+    "photo": "assets/headshots/matus-medo.jpg",
+    "name": "Prof. Dr. Matúš Medo",
+    "group": "Department of Radiation Oncology, Department for BioMedical Research",
+    "institute": "Inselspital · University of Bern",
+    "area": "Data Science, Genomics & Precision Medicine",
+    "expertise": "AI & Data Science, Bioinformatics & Omics",
+    "tag": "Genomics",
+    "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/prof_dr_medo_mat/index_eng.html",
+    "keywords": "Omics data, Benchmarking, Algorithms"
+  },
+  {
+    "initials": "DB",
+    "firstName": "David",
+    "photo": "assets/headshots/david-bervini.jpg",
+    "name": "Prof. Dr. med. David Bervini",
+    "group": "Department of Neurosurgery",
+    "institute": "Inselspital",
+    "area": "Surgery & Interventional Medicine",
+    "expertise": "Biomedical Engineering, Clinical Specialities, Clinical Research & Evidence",
+    "tag": "Neurosurgery",
+    "profileUrl": "https://neurochirurgie.insel.ch/klinik-team/aerztinnen-und-aerzte/detail/david-bervini",
+    "keywords": "Neurosurgery, Stroke Medicine, Biomedical Engineering, Vascular Surgery, Skull"
   }
 ]
