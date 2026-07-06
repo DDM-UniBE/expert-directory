@@ -378,7 +378,7 @@
   },
   {
     "initials": "SH",
-    "firstName": "Soren",
+    "firstName": "Sören",
     "photo": "assets/headshots/soeren-huwendiek.jpg",
     "name": "Prof. Sören Huwendiek",
     "group": "Department for Assessment and Evaluation, Institute for Medical Education",
@@ -387,7 +387,7 @@
     "expertise": "Ethics, Policy & Education",
     "tag": "AI in Medical Education",
     "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren",
-    "keywords": "Medical Education, AI, Local LLM"
+    "keywords": "Medical Education, AI, Local LLM, Soren"
   },
   {
     "initials": "RH",
@@ -504,7 +504,7 @@
     "expertise": "AI & Data Science, Medical Imaging, Clinical Research & Evidence, Biomedical Engineering",
     "tag": "Cardiac Imaging",
     "profileUrl": "https://ai-cvm.org/",
-    "keywords": "AI, Digital Twins, Digital Twin, 3D Printing, Coronary Artery Anomalies, Cardiac AI"
+    "keywords": "AI, Digital Twins, Digital Twin, 3D Printing, Coronary Artery Anomalies, Cardiac AI, Grani"
   },
   {
     "initials": "PL",
@@ -608,7 +608,7 @@
     "expertise": "AI & Data Science, Bioinformatics & Omics",
     "tag": "Genomics",
     "profileUrl": "https://www.dbmr.unibe.ch/about_us/staff/personenpool_index/prof_dr_medo_mat/index_eng.html",
-    "keywords": "Omics data, Benchmarking, Algorithms"
+    "keywords": "Omics data, Benchmarking, Algorithms, Matus"
   },
   {
     "initials": "DB",
