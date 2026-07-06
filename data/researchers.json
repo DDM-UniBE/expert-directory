@@ -36,7 +36,7 @@
     "expertise": "Clinical Specialities, Clinical Research & Evidence, AI & Data Science",
     "tag": "Radiation Oncology",
     "profileUrl": "https://radioonkologie.insel.ch/de/ueber-uns/details/person/detail/sarah-brueningk",
-    "keywords": "AI in Radiation Oncology, Mathematical Modelling, Machine Learning, Omics, Multimodal Data, Imaging, Oncology, Pediatric, Digital Health"
+    "keywords": "AI in Radiation Oncology, Mathematical Modelling, Machine Learning, Omics, Multimodal Data, Imaging, Oncology, Pediatric, Digital Health, Bruningk, Brueningk"
   },
   {
     "initials": "AK",
@@ -378,7 +378,7 @@
   },
   {
     "initials": "SH",
-    "firstName": "Sören",
+    "firstName": "Soren",
     "photo": "assets/headshots/soeren-huwendiek.jpg",
     "name": "Prof. Sören Huwendiek",
     "group": "Department for Assessment and Evaluation, Institute for Medical Education",
@@ -387,7 +387,7 @@
     "expertise": "Ethics, Policy & Education",
     "tag": "AI in Medical Education",
     "profileUrl": "https://www.iml.unibe.ch/ueber-uns/organisation/personen/huwendiek-soeren",
-    "keywords": "Medical Education, AI, Local LLM, Soren"
+    "keywords": "Medical Education, AI, Local LLM, Soren, Soeren"
   },
   {
     "initials": "RH",
