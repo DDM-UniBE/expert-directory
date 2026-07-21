@@ -238,7 +238,7 @@ const MS_DATA = {
     "Medical Imaging",
     "Pathology & Molecular Medicine"
   ],
-  inst: ["University of Bern", "Inselspital", "sitem-insel"]
+  inst: ["University of Bern", "Inselspital", "Universitäre Psychiatrische Dienste Bern (UPD)", "sitem-insel"]
 };
 
 function renderOptions(key, filter = '') {
