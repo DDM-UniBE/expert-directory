@@ -94,6 +94,10 @@ const AREA_TRIGGERS = {
     "neuroradiology", "multiple sclerosis", "epilepsy", "dementia",
     "alzheimer", "parkinson", "stroke", "glioblastoma", "medulloblastoma"
   ],
+  "Pediatrics & Child Health": [
+    "pediatrics", "pediatric", "paediatrics", "paediatric", "child health",
+    "child", "children", "neonatal", "infant", "adolescent"
+  ],
   "Surgery & Interventional Medicine": [
     "surgery", "surgical", "interventional", "minimally invasive",
    "laparoscopic", "navigation"
@@ -226,6 +230,7 @@ const MS_DATA = {
     "Medical Education",
     "Medical Imaging",
     "Neuroscience & Neurology",
+    "Pediatrics & Child Health",
     "Surgery & Interventional Medicine"
   ],
   exp: [
