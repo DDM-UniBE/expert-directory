@@ -669,10 +669,10 @@
     "name": "Dr. med. Sarah Deckarm",
     "group": "Department of Intensive Care Medicine",
     "institute": "Inselspital",
-    "area": "Pediatrics & Child Health, Neuroscience & Neurology, Data Science, Cancer & Oncology",
-    "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Clinical Research & Evidence",
-    "tag": "Neuropediatrics",
-    "profileUrl": "https://udem.insel.ch/de/lehre-und-forschung/principal-investigators/prof-dr-regula-everts-brekenfeld",
-    "keywords": "Neuroimaging, Neuroscience, Clinical datasets, Pediatric stroke, Pediatric oncology, Rare metabolic disease, Prematurity, Neuropsychology, Child, Large clinical datasets"
+    "area": "Biomedical Engineering & Biomedical Research, Data Science, Surgery & Interventional Medicine",
+    "expertise": "AI & Data Science, Clinical Specialities, Clinical Research & Evidence, Digital Health & Health Informatics",
+    "tag": "Clinical Data Science",
+    "profileUrl": "",
+    "keywords": "Clinical data science, Medical informatics, Intensive care medicine, Machine learning for clinical prediction, Real world evidence, Clinical trial data management, Real-world clinical data harmonisation, Explainable AI, Digital biomarkers, Medical software development."
   }
 ]
