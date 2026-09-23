@@ -113,7 +113,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Ethics, Policy & Education",
     "tag": "Neuroimaging",
-    "profileUrl": "mailto:richard.mckinley@insel.ch",
+    "profileUrl": "",
     "keywords": "Neuroimaging, Brain MRI, AI in Radiology, Multiple Sclerosis"
   },
   {
@@ -230,7 +230,7 @@
     "area": "Cancer & Oncology",
     "expertise": "Clinical Research & Evidence",
     "tag": "Urological Oncology",
-    "profileUrl": "mailto:marianna.kruithofdejulio@unibe.ch",
+    "profileUrl": "",
     "keywords": "Bladder Cancer, Prostate Cancer, Pancreatic Cancer, Preclinical"
   },
   {
@@ -308,7 +308,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "Medical Imaging, Pathology & Molecular Medicine",
     "tag": "Neuroimaging",
-    "profileUrl": "mailto:ruiqing.ni@unibe.ch",
+    "profileUrl": "",
     "keywords": "Molecular Imaging, Translational Research"
   },
   {
@@ -399,7 +399,7 @@
     "area": "Neuroscience & Neurology",
     "expertise": "AI & Data Science, Medical Imaging, Digital Health & Health Informatics, Clinical Specialities, Clinical Research & Evidence, Patholoy & Molecular Medicine",
     "tag": "Neurology",
-    "profileUrl": "mailto:robert.hoepner@insel.ch",
+    "profileUrl": "",
     "keywords": "Multiple Sclerosis, Neuroimmunology, MS Treatment, Neurology"
   },
   {
@@ -516,7 +516,7 @@
     "area": "Medical Imaging",
     "expertise": "Biomedical Engineering, Clinical Research & Evidence, Clinical Specialities",
     "tag": "Lung Imaging",
-    "profileUrl": "mailto:philipp.latzin@insel.ch",
+    "profileUrl": "",
     "keywords": "Lung Function, Automated Analysis Methods"
   },
   {
@@ -542,7 +542,7 @@
     "area": "Ethics & Responsible AI",
     "expertise": "Ethics, Policy & Education",
     "tag": "Ethics",
-    "profileUrl": "mailto:rouven.porz@insel.ch",
+    "profileUrl": "",
     "keywords": "Responsible AI"
   },
   {
@@ -633,7 +633,7 @@
     "area": "Surgery & Interventional Medicine",
     "expertise": "AI & Data Science, Clinical Specialities, Digital Health & Health Informatics",
     "tag": "Digital Transformations",
-    "profileUrl": "mailto:jonas.fischer@insel.ch",
+    "profileUrl": "",
     "keywords": ""
   },
   {
@@ -655,6 +655,19 @@
     "photo": "assets/headshots/regula-everts.jpg",
     "name": "Prof. Dr. Regula Everts",
     "group": "Neuropediatrics, Development and Rehabilitation, Department of Pediatrics - University Hospital for Diabetology, Endocrinology, Nutritional Medicine and Metabolism",
+    "institute": "Inselspital",
+    "area": "Pediatrics & Child Health, Neuroscience & Neurology, Data Science, Cancer & Oncology",
+    "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Clinical Research & Evidence",
+    "tag": "Neuropediatrics",
+    "profileUrl": "https://udem.insel.ch/de/lehre-und-forschung/principal-investigators/prof-dr-regula-everts-brekenfeld",
+    "keywords": "Neuroimaging, Neuroscience, Clinical datasets, Pediatric stroke, Pediatric oncology, Rare metabolic disease, Prematurity, Neuropsychology, Child, Large clinical datasets"
+  },
+  {
+    "initials": "SD",
+    "firstName": "Sarah",
+    "photo": "assets/headshots/sarah-deckarm.jpg",
+    "name": "Dr. med. Sarah Deckarm",
+    "group": "Department of Intensive Care Medicine",
     "institute": "Inselspital",
     "area": "Pediatrics & Child Health, Neuroscience & Neurology, Data Science, Cancer & Oncology",
     "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Clinical Research & Evidence",
