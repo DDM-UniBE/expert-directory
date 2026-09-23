@@ -139,6 +139,7 @@ const AREA_ALIASES = {
   "biomedical engineering & biomedical research": "Biomedical Engineering & Biomedical Research",
   "genomics & precision medicine":       "Genomics & Precision Medicine",
   "neuroscience & neurology":            "Neuroscience & Neurology",
+  "pediatrics & child health":           "Pediatrics & Child Health",
   "surgery & interventional medicine":   "Surgery & Interventional Medicine",
   "medical imaging":                     "Medical Imaging",
   "medical education":                   "Medical Education",

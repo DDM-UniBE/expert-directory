@@ -573,7 +573,7 @@
   },
   {
     "initials": "CS",
-    "firstName": "Christiane",
+    "firstName": "Christine",
     "photo": "assets/headshots/Christiane-Sokollik.jpg",
     "name": "PD Dr. med. Christine Sokollik",
     "group": "Department of Pediatrics, Division of Pediatric Gastroenterology, Hepatology and Nutrition, University Children's Hospital Bern",
@@ -622,5 +622,44 @@
     "tag": "Neurosurgery",
     "profileUrl": "https://neurochirurgie.insel.ch/klinik-team/aerztinnen-und-aerzte/detail/david-bervini",
     "keywords": "Neurosurgery, Stroke Medicine, Biomedical Engineering, Vascular Surgery, Skull"
+  },
+  {
+    "initials": "JF",
+    "firstName": "Jonas",
+    "photo": "assets/headshots/jonas-fischer.jpg",
+    "name": "Dr. med. Jonas Fischer",
+    "group": "Department of Visceral Surgery and Medicine",
+    "institute": "Inselspital",
+    "area": "Surgery & Interventional Medicine",
+    "expertise": "AI & Data Science, Clinical Specialities, Digital Health & Health Informatics",
+    "tag": "Digital Transformations",
+    "profileUrl": "mailto:jonas.fischer@insel.ch",
+    "keywords": ""
+  },
+  {
+    "initials": "FH",
+    "firstName": "Felix",
+    "photo": "assets/headshots/felix-hammann.jpg",
+    "name": "Prof. Dr. Dr. med. Felix Hammann",
+    "group": "Department of General Internal Medicine, Division of Clinical Toxicology",
+    "institute": "Inselspital",
+    "area": "Biomedical Engineering & Biomedical Research",
+    "expertise": "AI & Data Science, Clinical Specialities, Digital Health & Health Informatics, Clinical Research & Evidence",
+    "tag": "Clinical Pharmacology",
+    "profileUrl": "https://inneremedizin.insel.ch/de/unser-team/details/person/detail/felix-hammann",
+    "keywords": "Clinical Pharmacology, Pharmacometrics"
+  },
+  {
+    "initials": "RE",
+    "firstName": "Regula",
+    "photo": "assets/headshots/regula-everts.jpg",
+    "name": "Prof. Dr. Regula Everts",
+    "group": "Neuropediatrics, Development and Rehabilitation, Department of Pediatrics - University Hospital for Diabetology, Endocrinology, Nutritional Medicine and Metabolism",
+    "institute": "Inselspital",
+    "area": "Pediatrics & Child Health, Neuroscience & Neurology, Data Science, Cancer & Oncology",
+    "expertise": "AI & Data Science, Clinical Specialities, Medical Imaging, Clinical Research & Evidence",
+    "tag": "Neuropediatrics",
+    "profileUrl": "https://udem.insel.ch/de/lehre-und-forschung/principal-investigators/prof-dr-regula-everts-brekenfeld",
+    "keywords": "Neuroimaging, Neuroscience, Clinical datasets, Pediatric stroke, Pediatric oncology, Rare metabolic disease, Prematurity, Neuropsychology, Child, Large clinical datasets"
   }
 ]
